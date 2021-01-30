@@ -12,6 +12,7 @@ namespace oslometAPI.Models
     {
         public int Id { get; set; }
         public string Fagnavn { get; set; }
+        public int Semester { get; set; }
         public int MasterFagId { get; set; }
         public MasterFag MasterFag { get; set; }
 
