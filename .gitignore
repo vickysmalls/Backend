@@ -3,3 +3,8 @@
 ################################################################################
 
 /oslometAPI/bin/Debug/netcoreapp3.1
+/.vs/oslometAPI/config
+/.vs/oslometAPI/v16
+/oslometAPI/Logs/OsloMetLogs-20210201
+/oslometAPI/obj
+/oslometAPI/oslometAPI.csproj.user
