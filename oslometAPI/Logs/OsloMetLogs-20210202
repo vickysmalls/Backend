@@ -1,0 +1,4 @@
+2021-02-02T11:38:57.1151430+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2021-02-02T11:38:57.1444150+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-02T11:38:57.1874420+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-02T11:38:57.2231850+01:00  [INF] Content root path: "/Users/wasab/Projects/Backend/oslometAPI" (b5d60022)
