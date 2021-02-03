@@ -14,6 +14,7 @@ namespace oslometAPI.Models
         public string Fagnavn { get; set; }
         public int Semester { get; set; }
         public string Emnekode { get; set; }
+        public double SP { get; set; }
         public int KlasseId { get; set; }
         public Klasser Klasser { get; set; }
 

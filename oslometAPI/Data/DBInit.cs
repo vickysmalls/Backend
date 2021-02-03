@@ -491,7 +491,7 @@ namespace oslometAPI.Data
                             naturfag_muligheter1.Fagnavn = "Naturfag 1, emne 1";
                             naturfag_muligheter1.Semester = 4;
                             naturfag_muligheter1.Emnekode = "M1GNA2100";
-                            naturfag_muligheter1.MasterFagId = 4;
+                            naturfag_muligheter1.MasterFagId = 8;
                             context.Add(naturfag_muligheter1);
 
                             //Muligheter masterFagId 8
@@ -750,205 +750,281 @@ namespace oslometAPI.Data
                 /*******************************/
 
 
-                ////Klassetrinn 5-10
-                //var klasse2 = new Klasser();
-                //klasse2.Id = 2;
-                //klasse2.Klassetrinn = "5-10";
-                //context.Add(klasse2);
+                //Klassetrinn 5-10
+                var klasse2 = new Klasser();
+                klasse2.Id = 2;
+                klasse2.Klassetrinn = "5-10";
+                context.Add(klasse2);
 
 
-                //var oblig4 = new ObligFags();
-                //oblig4.Id = 7;
-                //oblig4.Fagnavn = "Matte2";
-                //oblig4.KlasseId = 2;
-                //context.Add(oblig4);
+                //obligatorisk fag
+                
+                    //obligatoriske mattefag
+                    var oblig_matte1_2 = new ObligFags();
+                    oblig_matte1_2.Id = 60;
+                    oblig_matte1_2.Fagnavn = "Matematikk, emne 1";
+                    oblig_matte1_2.Semester = 1;
+                    oblig_matte1_2.Emnekode = "M5GMT1100";
+                    oblig_matte1_2.SP = 15;
+                    oblig_matte1_2.KlasseId = 2;
+                    context.Add(oblig_matte1_2);
 
-                //var oblig5 = new ObligFags();
-                //oblig5.Id = 8;
-                //oblig5.Fagnavn = "Engelsk2";
-                //oblig5.KlasseId = 2;
-                //context.Add(oblig5);
+                    var oblig_matte2_2 = new ObligFags();
+                    oblig_matte2_2.Id = 61;
+                    oblig_matte2_2.Fagnavn = "Matematikk, emne 2";
+                    oblig_matte2_2.Semester = 1;
+                    oblig_matte2_2.Emnekode = "M5GMT1200";
+                    oblig_matte2_2.SP = 7.5;
+                    oblig_matte2_2.KlasseId = 2;
+                    context.Add(oblig_matte2_2);
 
-                //var oblig6 = new ObligFags();
-                //oblig6.Id = 9;
-                //oblig6.Fagnavn = "Norsk2";
-                //oblig6.KlasseId = 2;
-                //context.Add(oblig6);
+                    var oblig_matte3_2 = new ObligFags();
+                    oblig_matte3_2.Id = 62;
+                    oblig_matte3_2.Fagnavn = "Matematikk, emne 2";
+                    oblig_matte3_2.Semester = 2;
+                    oblig_matte3_2.Emnekode = "M5GMT1200";
+                    oblig_matte3_2.SP = 7.5;
+                    oblig_matte3_2.KlasseId = 2;
+                    context.Add(oblig_matte3_2);
 
+                    var oblig_matte4_2 = new ObligFags();
+                    oblig_matte4_2.Id = 63;
+                    oblig_matte4_2.Fagnavn = "Matematikk, emne 3";
+                    oblig_matte4_2.Semester = 2;
+                    oblig_matte4_2.Emnekode = "M5GMT1300";
+                    oblig_matte4_2.SP = 15;
+                    oblig_matte4_2.KlasseId = 2;
+                    context.Add(oblig_matte4_2);
 
-                ////Masterfag 4
-
-
-                ////muligheter masterFagId 4
-                //var muligheter10 = new Muligheter();
-                //muligheter10.Id = 10;
-                //muligheter10.Fagnavn = "Matematikk 2, emne 4";
-                //muligheter10.Semester = 5;
-                //muligheter10.MasterFagId = 4;
-                //context.Add(muligheter10);
-
-                ////muligheter masterFagId 4
-                //var muligheter11 = new Muligheter();
-                //muligheter11.Id = 11;
-                //muligheter11.Fagnavn = "Matte og matematikkdidaktikk 1";
-                //muligheter11.Semester = 7;
-                //muligheter11.MasterFagId = 4;
-                //context.Add(muligheter11);
-
-                ////muligheter masterFagId 4
-                //var muligheter12 = new Muligheter();
-                //muligheter12.Id = 12;
-                //muligheter12.Fagnavn = "Matematikk og matematikkdidaktikk 2";
-                //muligheter12.Semester = 8;
-                //muligheter12.MasterFagId = 4;
-                //context.Add(muligheter12);
-
-                //var masterfag5 = new MasterFag();
-                //masterfag5.Id = 5;
-                //masterfag5.Fagnavn = "Naturfag";
-                //masterfag5.KlasseId = 2;
-                //context.Add(masterfag5);
-
-                //var masterfag6 = new MasterFag();
-                //masterfag6.Id = 6;
-                //masterfag6.Fagnavn = "Gym";
-                //masterfag6.KlasseId = 2;
-                //context.Add(masterfag6);
+                    var oblig_matte5_2 = new ObligFags();
+                    oblig_matte5_2.Id = 64;
+                    oblig_matte5_2.Fagnavn = "Matematikk, emne 4";
+                    oblig_matte5_2.Semester = 3;
+                    oblig_matte5_2.Emnekode = "M5GMT2100";
+                    oblig_matte5_2.SP = 15;
+                    oblig_matte5_2.KlasseId = 2;
+                    context.Add(oblig_matte5_2);
 
 
 
+                    //obligatoriske Engelskfag
+                    var oblig_engelsk1_2 = new ObligFags();
+                    oblig_engelsk1_2.Id = 65;
+                    oblig_engelsk1_2.Fagnavn = "Engelsk, emne 1";
+                    oblig_engelsk1_2.Semester = 1;
+                    oblig_engelsk1_2.Emnekode = "M5GEN1100";
+                    oblig_engelsk1_2.SP = 15;
+                    oblig_engelsk1_2.KlasseId = 2;
+                    context.Add(oblig_engelsk1_2);
+
+                    var oblig_engelsk2_2 = new ObligFags();
+                    oblig_engelsk2_2.Id = 66;
+                    oblig_engelsk2_2.Fagnavn = "Engelsk, emne 2";
+                    oblig_engelsk2_2.Semester = 1;
+                    oblig_engelsk2_2.Emnekode = "M5GEN1200";
+                    oblig_engelsk2_2.SP = 7.5;
+                    oblig_engelsk2_2.KlasseId = 2;
+                    context.Add(oblig_engelsk2_2);
+
+                    var oblig_engelsk3_2 = new ObligFags();
+                    oblig_engelsk3_2.Id = 67;
+                    oblig_engelsk3_2.Fagnavn = "Matematikk, emne 2";
+                    oblig_engelsk3_2.Semester = 2;
+                    oblig_engelsk3_2.Emnekode = "M5GEN1200";
+                    oblig_engelsk3_2.SP = 7.5;
+                    oblig_engelsk3_2.KlasseId = 2;
+                    context.Add(oblig_engelsk3_2);
+
+                    var oblig_engelsk4_2 = new ObligFags();
+                    oblig_engelsk4_2.Id = 68;
+                    oblig_engelsk4_2.Fagnavn = "Engelsk, emne 3";
+                    oblig_engelsk4_2.Semester = 2;
+                    oblig_engelsk4_2.Emnekode = "M5GEN1300";
+                    oblig_engelsk4_2.SP = 15;
+                    oblig_engelsk4_2.KlasseId = 2;
+                    context.Add(oblig_engelsk4_2);
+
+                    var oblig_engelsk5_2 = new ObligFags();
+                    oblig_engelsk5_2.Id = 69;
+                    oblig_engelsk5_2.Fagnavn = "Engelsk, emne 4";
+                    oblig_engelsk5_2.Semester = 3;
+                    oblig_engelsk5_2.Emnekode = "M5GEN2100";
+                    oblig_engelsk5_2.SP = 15;
+                    oblig_engelsk5_2.KlasseId = 2;
+                    context.Add(oblig_engelsk5_2);
+
+
+
+                    //obligatoriske Norskfag
+                    var oblig_norsk1_2 = new ObligFags();
+                    oblig_norsk1_2.Id = 70;
+                    oblig_norsk1_2.Fagnavn = "Norsk, emne 1";
+                    oblig_norsk1_2.Semester = 1;
+                    oblig_norsk1_2.Emnekode = "M5GNO1100";
+                    oblig_norsk1_2.SP = 15;
+                    oblig_norsk1_2.KlasseId = 2;
+                    context.Add(oblig_norsk1_2);
+
+                    var oblig_norsk2_2 = new ObligFags();
+                    oblig_norsk2_2.Id = 71;
+                    oblig_norsk2_2.Fagnavn = "Norsk, emne 2";
+                    oblig_norsk2_2.Semester = 1;
+                    oblig_norsk2_2.Emnekode = "M5GNO1200";
+                    oblig_norsk2_2.SP = 7.5;
+                    oblig_norsk2_2.KlasseId = 2;
+                    context.Add(oblig_norsk2_2);
+
+                    var oblig_norsk3_2 = new ObligFags();
+                    oblig_norsk3_2.Id = 72;
+                    oblig_norsk3_2.Fagnavn = "Norsk, emne 2";
+                    oblig_norsk3_2.Semester = 2;
+                    oblig_norsk3_2.Emnekode = "M5GNO1200";
+                    oblig_norsk3_2.SP = 7.5;
+                    oblig_norsk3_2.KlasseId = 2;
+                    context.Add(oblig_norsk3_2);
+
+                    var oblig_norsk4_2 = new ObligFags();
+                    oblig_norsk4_2.Id = 73;
+                    oblig_norsk4_2.Fagnavn = "Norsk, emne 3";
+                    oblig_norsk4_2.Semester = 2;
+                    oblig_norsk4_2.Emnekode = "M5GNO1300";
+                    oblig_norsk4_2.SP = 15;
+                    oblig_norsk4_2.KlasseId = 2;
+                    context.Add(oblig_norsk4_2);
+
+                    var oblig_norsk5_2 = new ObligFags();
+                    oblig_norsk5_2.Id = 74;
+                    oblig_norsk5_2.Fagnavn = "Norsk, emne 4";
+                    oblig_norsk5_2.Semester = 3;
+                    oblig_norsk5_2.Emnekode = "M5GNO2100";
+                    oblig_norsk5_2.SP = 15;
+                    oblig_norsk5_2.KlasseId = 2;
+                    context.Add(oblig_norsk5_2);
+
+                //Masterfag
+
+                    //Masterfag 1 Norsk
+                    var masterfag_norsk_2 = new MasterFag();
+                    masterfag_norsk_2.Id = 14;
+                    masterfag_norsk_2.Fagnavn = "Norsk";
+                    masterfag_norsk_2.KlasseId = 2;
+                    context.Add(masterfag_norsk_2);
+
+                        //muligheter masterFagId 14
+                        var norsk_muligheter1_2 = new Muligheter();
+                        norsk_muligheter1_2.Id = 75;
+                        norsk_muligheter1_2.Fagnavn = "Norsk og norskdidaktikk 1";
+                        norsk_muligheter1_2.Semester = 7;
+                        norsk_muligheter1_2.Emnekode = "MGNO4100";
+                        norsk_muligheter1_2.SP = 15;
+                        norsk_muligheter1_2.MasterFagId = 14;
+                        context.Add(norsk_muligheter1_2);
+
+                        //muligheter masterFagId 14
+                        var norsk_muligheter2_2 = new Muligheter();
+                        norsk_muligheter2_2.Id = 76;
+                        norsk_muligheter2_2.Fagnavn = "Norsk og norskdidaktikk 2";
+                        norsk_muligheter2_2.Semester = 8;
+                        norsk_muligheter2_2.Emnekode = "MGNO4200";
+                        norsk_muligheter2_2.SP = 15;
+                        norsk_muligheter2_2.MasterFagId = 14;
+                        context.Add(norsk_muligheter2_2);
+
+                        //muligheter masterFagId 14
+                        var norsk_muligheter3_2 = new Muligheter();
+                        norsk_muligheter3_2.Id = 77;
+                        norsk_muligheter3_2.Fagnavn = "Norsk og norskdidaktikk 3";
+                        norsk_muligheter3_2.Semester = 9;
+                        norsk_muligheter3_2.Emnekode = "MGNO5100";
+                        norsk_muligheter3_2.SP = 15;
+                        norsk_muligheter3_2.MasterFagId = 14;
+                        context.Add(norsk_muligheter3_2);
+
+
+
+                    //Masterfag 2 Matte
+                    var masterfag_matte_2 = new MasterFag();
+                    masterfag_matte_2.Id = 15;
+                    masterfag_matte_2.Fagnavn = "Matte";
+                    masterfag_matte_2.KlasseId = 2;
+                    context.Add(masterfag_matte_2);
+
+                        //Muligheter masterFagId 15
+                        var matte_muligheter1_2 = new Muligheter();
+                        matte_muligheter1_2.Id = 78;
+                        matte_muligheter1_2.Fagnavn = "Matematikk og matematikkdidaktikk 1";
+                        matte_muligheter1_2.Semester = 7;
+                        matte_muligheter1_2.Emnekode = "MGMT4100";
+                        matte_muligheter1_2.SP = 15;
+                        matte_muligheter1_2.MasterFagId = 15;
+                        context.Add(matte_muligheter1_2);
+
+                        //Muligheter masterFagId 15
+                        var matte_muligheter2_2 = new Muligheter();
+                        matte_muligheter2_2.Id = 79;
+                        matte_muligheter2_2.Fagnavn = "Matematikk og matematikkdidaktikk 2";
+                        matte_muligheter2_2.Semester = 8;
+                        matte_muligheter2_2.Emnekode = "MGMT4200";
+                        matte_muligheter2_2.SP = 15;
+                        matte_muligheter2_2.MasterFagId = 15;
+                        context.Add(matte_muligheter2_2);
+
+                        //Muligheter masterFagId 15
+                        var matte_muligheter3_2 = new Muligheter();
+                        matte_muligheter3_2.Id = 80;
+                        matte_muligheter3_2.Fagnavn = "Matematikk og matematikkdidaktikk 3";
+                        matte_muligheter3_2.Semester = 9;
+                        matte_muligheter3_2.Emnekode = "MGMT5100";
+                        matte_muligheter3_2.SP = 15;
+                        matte_muligheter3_2.MasterFagId = 15;
+                        context.Add(matte_muligheter3_2);
+
+
+
+                    //Masterfag Engelsk
+                    var masterfag_engelsk_2 = new MasterFag();
+                    masterfag_engelsk_2.Id = 16;
+                    masterfag_engelsk_2.Fagnavn = "Engelsk";
+                    masterfag_engelsk_2.KlasseId = 2;
+                    context.Add(masterfag_engelsk_2);
+
+                        //Muligheter masterFagId 16
+                        var engelsk_muligheter1_2 = new Muligheter();
+                        engelsk_muligheter1_2.Id = 81;
+                        engelsk_muligheter1_2.Fagnavn = "Engelsk og engelskdidaktikk 1";
+                        engelsk_muligheter1_2.Semester = 7;
+                        engelsk_muligheter1_2.Emnekode = "MGEN4100";
+                        engelsk_muligheter1_2.SP = 15;
+                        engelsk_muligheter1_2.MasterFagId = 16;
+                        context.Add(engelsk_muligheter1_2);
+
+                        //Muligheter masterFagId 16
+                        var engelsk_muligheter2_2 = new Muligheter();
+                        engelsk_muligheter2_2.Id = 82;
+                        engelsk_muligheter2_2.Fagnavn = "Engelsk og engelskdidaktikk 2";
+                        engelsk_muligheter2_2.Semester = 8;
+                        engelsk_muligheter2_2.Emnekode = "MGEN4200";
+                        engelsk_muligheter2_2.SP = 15;
+                        engelsk_muligheter2_2.MasterFagId = 16;
+                        context.Add(engelsk_muligheter2_2);
+
+                        //Muligheter masterFagId 16
+                        var engelsk_muligheter3_2 = new Muligheter();
+                        engelsk_muligheter3_2.Id = 83;
+                        engelsk_muligheter3_2.Fagnavn = "Engelsk og engelskdidaktikk 3";
+                        engelsk_muligheter3_2.Semester = 9;
+                        engelsk_muligheter3_2.Emnekode = "MGEN5100";
+                        engelsk_muligheter3_2.SP = 15;
+                        engelsk_muligheter3_2.MasterFagId = 16;
+                        context.Add(engelsk_muligheter3_2);
 
 
 
 
 
-                ///*
-                //                 // Klasser/klassetrinn
-                //var klasse1 = new Klasser();
-                //klasse1.Id = 1;
-                //klasse1.Klassetrinn = "1-7";
-                //context.Add(klasse1);
-
-                //var klasse2 = new Klasser();
-                //klasse2.Id = 2;
-                //klasse2.Klassetrinn = "5-10";
-                //context.Add(klasse2);
 
 
-                ////Oblig fags
-                //var oblig1 = new ObligFags();
-                //oblig1.Id = 1;
-                //oblig1.Fagnavn = "Matte";
-                //oblig1.KlasseId = 1;
-                //context.Add(oblig1);
 
-                //var oblig2 = new ObligFags();
-                //oblig2.Id = 2;
-                //oblig2.Fagnavn = "Engelsk";
-                //oblig2.KlasseId = 1;
-                //context.Add(oblig2);
-
-                //var oblig3 = new ObligFags();
-                //oblig3.Id = 3;
-                //oblig3.Fagnavn = "Norsk";
-                //oblig3.KlasseId = 1;
-                //context.Add(oblig3);
-
-                //var oblig4 = new ObligFags();
-                //oblig4.Id = 4;
-                //oblig4.Fagnavn = "Matte";
-                //oblig4.KlasseId = 2;
-                //context.Add(oblig4);
-
-                //var oblig5 = new ObligFags();
-                //oblig5.Id = 5;
-                //oblig5.Fagnavn = "Engelsk";
-                //oblig5.KlasseId = 2;
-                //context.Add(oblig5);
-
-                //var oblig6 = new ObligFags();
-                //oblig6.Id = 6;
-                //oblig6.Fagnavn = "Norsk";
-                //oblig6.KlasseId = 2;
-                //context.Add(oblig6);
-
-
-                ////Masterfag
-
-                //var masterfag1 = new MasterFag();
-                //masterfag1.Id = 1;
-                //masterfag1.Fagnavn = "Matte";
-                //masterfag1.KlasseId = 1;
-                //context.Add(masterfag1);
-
-                //var masterfag2 = new MasterFag();
-                //masterfag2.Id = 2;
-                //masterfag2.Fagnavn = "Engelsk";
-                //masterfag2.KlasseId = 1;
-                //context.Add(masterfag2);
-
-                //var masterfag3 = new MasterFag();
-                //masterfag3.Id = 3;
-                //masterfag3.Fagnavn = "Pedagogikk";
-                //masterfag3.KlasseId = 1;
-                //context.Add(masterfag3);
-
-                //var masterfag4 = new MasterFag();
-                //masterfag4.Id = 4;
-                //masterfag4.Fagnavn = "Matte";
-                //masterfag4.KlasseId = 2;
-                //context.Add(masterfag4);
-
-                //var masterfag5 = new MasterFag();
-                //masterfag5.Id = 5;
-                //masterfag5.Fagnavn = "Naturfag";
-                //masterfag5.KlasseId = 2;
-                //context.Add(masterfag5);
-
-                //var masterfag6 = new MasterFag();
-                //masterfag6.Id = 6;
-                //masterfag6.Fagnavn = "Gym";
-                //masterfag6.KlasseId = 2;
-                //context.Add(masterfag6);
-
-                ////muligheter 1-7 trinn
-                //var muligheter1 = new Muligheter();
-                //muligheter1.Id = 1;
-                //muligheter1.Fagnavn = "Krle";
-                //muligheter1.MasterFagId = 1;
-                //context.Add(muligheter1);
-
-                //var muligheter2 = new Muligheter();
-                //muligheter2.Id = 2;
-                //muligheter2.Fagnavn = "Gym";
-                //muligheter2.MasterFagId = 1;
-                //context.Add(muligheter2);
-
-                //var muligheter3 = new Muligheter();
-                //muligheter3.Id = 3;
-                //muligheter3.Fagnavn = "Naturfag";
-                //muligheter3.MasterFagId = 1;
-                //context.Add(muligheter3);
-
-                ////Muligheter 5-10 trinn
-                //var muligheter4 = new Muligheter();
-                //muligheter4.Id = 4;
-                //muligheter4.Fagnavn = "Krle";
-                //muligheter4.MasterFagId = 2;
-                //context.Add(muligheter4);
-
-                //var muligheter5 = new Muligheter();
-                //muligheter5.Id = 5;
-                //muligheter5.Fagnavn = "Krle";
-                //muligheter5.MasterFagId = 2;
-                //context.Add(muligheter5);
-
-                //var muligheter6 = new Muligheter();
-                //muligheter6.Id = 6;
-                //muligheter6.Fagnavn = "Naturfag";
-                //muligheter6.MasterFagId = 2;
-                //context.Add(muligheter6);
-                // */
 
 
                 context.SaveChanges();
