@@ -499,7 +499,7 @@ namespace oslometAPI.Data
                             naturfag_muligheter2.Id = 38;
                             naturfag_muligheter2.Fagnavn = "Naturfag 1, emne 2";
                             naturfag_muligheter2.Semester = 4;
-                            naturfag_muligheter1.Emnekode = "M1GNA2200";
+                            naturfag_muligheter2.Emnekode = "M1GNA2200";
                             naturfag_muligheter2.MasterFagId = 8;
                             context.Add(naturfag_muligheter2);
 
@@ -508,7 +508,7 @@ namespace oslometAPI.Data
                             naturfag_muligheter3.Id = 39;
                             naturfag_muligheter3.Fagnavn = "Naturfag 2, emne 3";
                             naturfag_muligheter3.Semester = 5;
-                            naturfag_muligheter3.Emnekode = "MGNA4100";
+                            naturfag_muligheter3.Emnekode = "M1GNA3100";
                             naturfag_muligheter3.MasterFagId = 8;
                             context.Add(naturfag_muligheter3);
 
@@ -517,7 +517,7 @@ namespace oslometAPI.Data
                             naturfag_muligheter4.Id = 40;
                             naturfag_muligheter4.Fagnavn = "Naturfag og naturfagdidaktikk 1";
                             naturfag_muligheter4.Semester = 7;
-                            naturfag_muligheter4.Emnekode = "MGNA4200";
+                            naturfag_muligheter4.Emnekode = "MGNA4100";
                             naturfag_muligheter4.MasterFagId = 8;
                             context.Add(naturfag_muligheter4);
 
@@ -526,7 +526,7 @@ namespace oslometAPI.Data
                             naturfag_muligheter5.Id = 41;
                             naturfag_muligheter5.Fagnavn = "Naturfag og naturfagdidaktikk 2";
                             naturfag_muligheter5.Semester = 8;
-                            naturfag_muligheter5.Emnekode = "MGNA5100";
+                            naturfag_muligheter5.Emnekode = "MGNA4200";
                             naturfag_muligheter5.MasterFagId = 8;
                             context.Add(naturfag_muligheter5);
 
@@ -608,7 +608,7 @@ namespace oslometAPI.Data
                         var masterfag_tegnspråk = new MasterFag();
                         masterfag_tegnspråk.Id = 10;
                         masterfag_tegnspråk.Fagnavn = "Tegnspråk";
-                        masterfag_tegnspråk.KlasseId = 1;
+                        masterfag_tegnspråk.KlasseId = 10;
                         context.Add(masterfag_tegnspråk);
 
                             //Muligheter masterFagId 10
@@ -625,7 +625,7 @@ namespace oslometAPI.Data
                             tegnspråk_muligheter2.Id = 50;
                             tegnspråk_muligheter2.Fagnavn = "Norsk tegnspråk 2";
                             tegnspråk_muligheter2.Semester = 6;
-                            tegnspråk_muligheter1.Emnekode = "MGNT3200";
+                            tegnspråk_muligheter2.Emnekode = "MGNT3200";
                             tegnspråk_muligheter2.MasterFagId = 10;
                             context.Add(tegnspråk_muligheter2);
 
@@ -1020,9 +1020,540 @@ namespace oslometAPI.Data
 
 
 
+                    //Masterfag KRLE
+                    var masterfag_KRLE_2 = new MasterFag();
+                    masterfag_KRLE_2.Id = 17;
+                    masterfag_KRLE_2.Fagnavn = "KRLE";
+                    masterfag_KRLE_2.KlasseId = 2;
+                    context.Add(masterfag_KRLE_2);
+
+                        //Muligheter masterFagId 17
+                        var KRLE_muligheter1_2 = new Muligheter();
+                        KRLE_muligheter1_2.Id = 84;
+                        KRLE_muligheter1_2.Fagnavn = "RLE 1, emne 1";
+                        KRLE_muligheter1_2.Semester = 4;
+                        KRLE_muligheter1_2.Emnekode = "M5GRL2100";
+                        KRLE_muligheter1_2.SP = 15;
+                        KRLE_muligheter1_2.MasterFagId = 17;
+                        context.Add(KRLE_muligheter1_2);
+
+                        //Muligheter masterFagId 17
+                        var KRLE_muligheter2_2 = new Muligheter();
+                        KRLE_muligheter2_2.Id = 85;
+                        KRLE_muligheter2_2.Fagnavn = "RLE 1, emne 2";
+                        KRLE_muligheter2_2.Semester = 4;
+                        KRLE_muligheter2_2.Emnekode = "M5GRL2200";
+                        KRLE_muligheter2_2.SP = 15;
+                        KRLE_muligheter2_2.MasterFagId = 17;
+                        context.Add(KRLE_muligheter2_2);
+
+                        //Muligheter masterFagId 17
+                        var KRLE_muligheter3_2 = new Muligheter();
+                        KRLE_muligheter3_2.Id = 86;
+                        KRLE_muligheter3_2.Fagnavn = "RLE 2, emne 3";
+                        KRLE_muligheter3_2.Semester = 5;
+                        KRLE_muligheter3_2.Emnekode = "M5GRL3100";
+                        KRLE_muligheter3_2.SP = 30;
+                        KRLE_muligheter3_2.MasterFagId = 17;
+                        context.Add(KRLE_muligheter3_2);
+
+                        //Muligheter masterFagId 17
+                        var KRLE_muligheter4_2 = new Muligheter();
+                        KRLE_muligheter4_2.Id = 87;
+                        KRLE_muligheter4_2.Fagnavn = "RLE og RLE-didaktikk 1";
+                        KRLE_muligheter4_2.Semester = 7;
+                        KRLE_muligheter4_2.Emnekode = "MGRL4100";
+                        KRLE_muligheter4_2.SP = 15;
+                        KRLE_muligheter4_2.MasterFagId = 17;
+                        context.Add(KRLE_muligheter4_2);
+
+                        //Muligheter masterFagId 17
+                        var KRLE_muligheter5_2 = new Muligheter();
+                        KRLE_muligheter5_2.Id = 88;
+                        KRLE_muligheter5_2.Fagnavn = "RLE og RLE-didaktikk 2";
+                        KRLE_muligheter5_2.Semester = 8;
+                        KRLE_muligheter5_2.Emnekode = "MGRL4200";
+                        KRLE_muligheter5_2.SP = 15;
+                        KRLE_muligheter5_2.MasterFagId = 17;
+                        context.Add(KRLE_muligheter5_2);
+
+                        //Muligheter masterFagId 17
+                        var KRLE_muligheter6_2 = new Muligheter();
+                        KRLE_muligheter6_2.Id = 89;
+                        KRLE_muligheter6_2.Fagnavn = "RLE og RLE-didaktikk 3";
+                        KRLE_muligheter6_2.Semester = 9;
+                        KRLE_muligheter6_2.Emnekode = "MGRL5100";
+                        KRLE_muligheter6_2.SP = 15;
+                        KRLE_muligheter6_2.MasterFagId = 17;
+                        context.Add(KRLE_muligheter6_2);
 
 
 
+                    //Masterfag kroppsøving
+                    var masterfag_gym_2 = new MasterFag();
+                    masterfag_gym_2.Id = 18;
+                    masterfag_gym_2.Fagnavn = "Gym";
+                    masterfag_gym_2.KlasseId = 2;
+                    context.Add(masterfag_gym_2);
+
+                        //Muligheter masterFagId 18
+                        var gym_muligheter1_2 = new Muligheter();
+                        gym_muligheter1_2.Id = 90;
+                        gym_muligheter1_2.Fagnavn = "Kroppsøving 1, emne 1";
+                        gym_muligheter1_2.Semester = 4;
+                        gym_muligheter1_2.Emnekode = "M5GKP2100";
+                        gym_muligheter1_2.SP = 30;
+                        gym_muligheter1_2.MasterFagId = 18;
+                        context.Add(gym_muligheter1_2);
+
+                        //Muligheter masterFagId 18
+                        var gym_muligheter2_2 = new Muligheter();
+                        gym_muligheter2_2.Id = 91;
+                        gym_muligheter2_2.Fagnavn = "Kroppsøving 2, emne 2";
+                        gym_muligheter2_2.Semester = 5;
+                        gym_muligheter2_2.Emnekode = "M1GKP3100";
+                        gym_muligheter2_2.SP = 30;
+                        gym_muligheter2_2.MasterFagId = 18;
+                        context.Add(gym_muligheter2_2);
+
+                        //Muligheter masterFagId 18
+                        var gym_muligheter3_2 = new Muligheter();
+                        gym_muligheter3_2.Id = 92;
+                        gym_muligheter3_2.Fagnavn = "Kroppsøving og kroppsøvingsdidaktikk 1";
+                        gym_muligheter3_2.Semester = 7;
+                        gym_muligheter3_2.Emnekode = "MGKP4100";
+                        gym_muligheter3_2.SP = 15;
+                        gym_muligheter3_2.MasterFagId = 18;
+                        context.Add(gym_muligheter3_2);
+
+                        //Muligheter masterFagId 18
+                        var gym_muligheter4_2 = new Muligheter();
+                        gym_muligheter4_2.Id = 93;
+                        gym_muligheter4_2.Fagnavn = "Kroppsøving og kroppsøvingsdidaktikk 2";
+                        gym_muligheter4_2.Semester = 8;
+                        gym_muligheter4_2.Emnekode = "MGKP4200";
+                        gym_muligheter4_2.SP = 15;
+                        gym_muligheter4_2.MasterFagId = 18;
+                        context.Add(gym_muligheter4_2);
+
+                        //Muligheter masterFagId 18
+                        var gym_muligheter5_2 = new Muligheter();
+                        gym_muligheter5_2.Id = 94;
+                        gym_muligheter5_2.Fagnavn = "Kroppsøving og kroppsøvingsdidaktikk 3";
+                        gym_muligheter5_2.Semester = 9;
+                        gym_muligheter5_2.Emnekode = "MGKP5100";
+                        gym_muligheter5_2.SP = 15;
+                        gym_muligheter5_2.MasterFagId = 18;
+                        context.Add(gym_muligheter5_2);
+
+
+
+                    //Masterfag KH
+                    var masterfag_KH_2 = new MasterFag();
+                    masterfag_KH_2.Id = 19;
+                    masterfag_KH_2.Fagnavn = "KH";
+                    masterfag_KH_2.KlasseId = 2;
+                    context.Add(masterfag_KH_2);
+
+                        //Muligheter masterFagId 19
+                        var KH_muligheter1_2 = new Muligheter();
+                        KH_muligheter1_2.Id = 95;
+                        KH_muligheter1_2.Fagnavn = "Kunst og håndverk 1, emne 1";
+                        KH_muligheter1_2.Semester = 4;
+                        KH_muligheter1_2.Emnekode = "MGKH2100";
+                        KH_muligheter1_2.SP = 30;
+                        KH_muligheter1_2.MasterFagId = 19;
+                        context.Add(KH_muligheter1_2);
+
+                        //Muligheter masterFagId 19
+                        var KH_muligheter2_2 = new Muligheter();
+                        KH_muligheter2_2.Id = 96;
+                        KH_muligheter2_2.Fagnavn = "Kunst og håndverk 2, emne 2";
+                        KH_muligheter2_2.Semester = 5;
+                        KH_muligheter2_2.Emnekode = "MGKH2100";
+                        KH_muligheter2_2.SP = 30;
+                        KH_muligheter2_2.MasterFagId = 19;
+                        context.Add(KH_muligheter2_2);
+
+                        //Muligheter masterFagId 19
+                        var KH_muligheter3_2 = new Muligheter();
+                        KH_muligheter3_2.Id = 97;
+                        KH_muligheter3_2.Fagnavn = "Fagdidaktikk: kunst og håndverk";
+                        KH_muligheter3_2.Semester = 7;
+                        KH_muligheter3_2.Emnekode = "MFAGL4000";
+                        KH_muligheter3_2.SP = 15;
+                        KH_muligheter3_2.MasterFagId = 19;
+                        context.Add(KH_muligheter3_2);
+
+                        //Muligheter masterFagId 19
+                        var KH_muligheter4_2 = new Muligheter();
+                        KH_muligheter4_2.Id = 98;
+                        KH_muligheter4_2.Fagnavn = "Praktisk estetisk prosjekt";
+                        KH_muligheter4_2.Semester = 8;
+                        KH_muligheter4_2.Emnekode = "MFAGL4200";
+                        KH_muligheter4_2.SP = 15;
+                        KH_muligheter4_2.MasterFagId = 19;
+                        context.Add(KH_muligheter4_2);
+
+                        //Muligheter masterFagId 19
+                        var KH_muligheter5_2 = new Muligheter();
+                        KH_muligheter5_2.Id = 99;
+                        KH_muligheter5_2.Fagnavn = "Prosjektutvikling og undervisningspraksis";
+                        KH_muligheter5_2.Semester = 9;
+                        KH_muligheter5_2.Emnekode = "MFAGL5000";
+                        KH_muligheter5_2.SP = 15;
+                        KH_muligheter5_2.MasterFagId = 19;
+                        context.Add(KH_muligheter5_2);
+
+
+                    //Masterfag Musikk
+                    var masterfag_musikk_2 = new MasterFag();
+                    masterfag_musikk_2.Id = 20;
+                    masterfag_musikk_2.Fagnavn = "Musikk";
+                    masterfag_musikk_2.KlasseId = 2;
+                    context.Add(masterfag_musikk_2);
+
+                        //Muligheter masterFagId 20
+                        var musikk_muligheter1_2 = new Muligheter();
+                        musikk_muligheter1_2.Id = 100;
+                        musikk_muligheter1_2.Fagnavn = "Musikk 1, emne 1";
+                        musikk_muligheter1_2.Semester = 4;
+                        musikk_muligheter1_2.Emnekode = "M5GMU2100";
+                        musikk_muligheter1_2.SP = 15;
+                        musikk_muligheter1_2.MasterFagId = 20;
+                        context.Add(musikk_muligheter1_2);
+
+                        //Muligheter masterFagId 20
+                        var musikk_muligheter2_2 = new Muligheter();
+                        musikk_muligheter2_2.Id = 101;
+                        musikk_muligheter2_2.Fagnavn = "Musikk 1, emne 2";
+                        musikk_muligheter2_2.Semester = 4;
+                        musikk_muligheter2_2.Emnekode = "M5GMU2200";
+                        musikk_muligheter2_2.SP = 15;
+                        musikk_muligheter2_2.MasterFagId = 20;
+                        context.Add(musikk_muligheter2_2);
+
+                        //Muligheter masterFagId 20
+                        var musikk_muligheter3_2 = new Muligheter();
+                        musikk_muligheter3_2.Id = 102;
+                        musikk_muligheter3_2.Fagnavn = "Musikk 2, emne 3";
+                        musikk_muligheter3_2.Semester = 5;
+                        musikk_muligheter3_2.Emnekode = "M5GMU3100";
+                        musikk_muligheter3_2.SP = 30;
+                        musikk_muligheter3_2.MasterFagId = 20;
+                        context.Add(musikk_muligheter3_2);
+
+                        //Muligheter masterFagId 20
+                        var musikk_muligheter4_2 = new Muligheter();
+                        musikk_muligheter4_2.Id = 103;
+                        musikk_muligheter4_2.Fagnavn = "Musikk og musikkdidaktikk 1";
+                        musikk_muligheter4_2.Semester = 7;
+                        musikk_muligheter4_2.Emnekode = "MGMU4100";
+                        musikk_muligheter4_2.SP = 15;
+                        musikk_muligheter4_2.MasterFagId = 20;
+                        context.Add(musikk_muligheter4_2);
+
+                        //Muligheter masterFagId 20
+                        var musikk_muligheter5_2 = new Muligheter();
+                        musikk_muligheter5_2.Id = 104;
+                        musikk_muligheter5_2.Fagnavn = "Musikk og musikkdidaktikk 2";
+                        musikk_muligheter5_2.Semester = 8;
+                        musikk_muligheter5_2.Emnekode = "MGMU4200";
+                        musikk_muligheter5_2.SP = 15;
+                        musikk_muligheter5_2.MasterFagId = 20;
+                        context.Add(musikk_muligheter5_2);
+
+                        //Muligheter masterFagId 20
+                        var musikk_muligheter6_2 = new Muligheter();
+                        musikk_muligheter6_2.Id = 105;
+                        musikk_muligheter6_2.Fagnavn = "Musikk og musikkdidaktikk 3";
+                        musikk_muligheter6_2.Semester = 9;
+                        musikk_muligheter6_2.Emnekode = "MGMU5100";
+                        musikk_muligheter6_2.SP = 15;
+                        musikk_muligheter6_2.MasterFagId = 20;
+                        context.Add(musikk_muligheter6_2);
+
+
+
+                    //Masterfag Naturfag
+                    var masterfag_naturfag_2 = new MasterFag();
+                    masterfag_naturfag_2.Id = 21;
+                    masterfag_naturfag_2.Fagnavn = "Naturfag";
+                    masterfag_naturfag_2.KlasseId = 2;
+                    context.Add(masterfag_naturfag_2);
+
+                        //Muligheter masterFagId 21
+                        var naturfag_muligheter1_2 = new Muligheter();
+                        naturfag_muligheter1_2.Id = 106;
+                        naturfag_muligheter1_2.Fagnavn = "Naturfag 1, emne 1";
+                        naturfag_muligheter1_2.Semester = 4;
+                        naturfag_muligheter1_2.Emnekode = "M5GNA2100";
+                        naturfag_muligheter1_2.SP = 15;
+                        naturfag_muligheter1_2.MasterFagId = 21;
+                        context.Add(naturfag_muligheter1_2);
+
+                        //Muligheter masterFagId 21
+                        var naturfag_muligheter2_2 = new Muligheter();
+                        naturfag_muligheter2_2.Id = 107;
+                        naturfag_muligheter2_2.Fagnavn = "Naturfag 1, emne 2";
+                        naturfag_muligheter2_2.Semester = 4;
+                        naturfag_muligheter2_2.Emnekode = "M5GNA2200";
+                        naturfag_muligheter2_2.SP = 15;
+                        naturfag_muligheter2_2.MasterFagId = 21;
+                        context.Add(naturfag_muligheter2_2);
+
+                        //Muligheter masterFagId 21
+                        var naturfag_muligheter3_2 = new Muligheter();
+                        naturfag_muligheter3_2.Id = 108;
+                        naturfag_muligheter3_2.Fagnavn = "Naturfag 2, emne 3";
+                        naturfag_muligheter3_2.Semester = 5;
+                        naturfag_muligheter3_2.Emnekode = "M5GNA3100";
+                        naturfag_muligheter3_2.SP = 30;
+                        naturfag_muligheter3_2.MasterFagId = 21;
+                        context.Add(naturfag_muligheter3_2);
+
+                        //Muligheter masterFagId 21
+                        var naturfag_muligheter4_2 = new Muligheter();
+                        naturfag_muligheter4_2.Id = 109;
+                        naturfag_muligheter4_2.Fagnavn = "Naturfag og naturfagdidaktikk 1";
+                        naturfag_muligheter4_2.Semester = 7;
+                        naturfag_muligheter4_2.Emnekode = "MGNA4100";
+                        naturfag_muligheter4_2.SP = 15;
+                        naturfag_muligheter4_2.MasterFagId = 21;
+                        context.Add(naturfag_muligheter4_2);
+
+                        //Muligheter masterFagId 21
+                        var naturfag_muligheter5_2 = new Muligheter();
+                        naturfag_muligheter5_2.Id = 110;
+                        naturfag_muligheter5_2.Fagnavn = "Naturfag og naturfagdidaktikk 2";
+                        naturfag_muligheter5_2.Semester = 8;
+                        naturfag_muligheter5_2.Emnekode = "MGNA4200";
+                        naturfag_muligheter5_2.SP = 15;
+                        naturfag_muligheter5_2.MasterFagId = 21;
+                        context.Add(naturfag_muligheter5_2);
+
+                        //Muligheter masterFagId 21
+                        var naturfag_muligheter6_2 = new Muligheter();
+                        naturfag_muligheter6_2.Id = 111;
+                        naturfag_muligheter6_2.Fagnavn = "Naturfag og naturfagdidaktikk 3";
+                        naturfag_muligheter6_2.Semester = 9;
+                        naturfag_muligheter6_2.Emnekode = "MGNA5100";
+                        naturfag_muligheter6_2.SP = 15;
+                        naturfag_muligheter6_2.MasterFagId = 21;
+                        context.Add(naturfag_muligheter6_2);
+
+
+                    //Masterfag samfunnsfag
+                    var masterfag_samfunnsfag_2 = new MasterFag();
+                    masterfag_samfunnsfag_2.Id = 22;
+                    masterfag_samfunnsfag_2.Fagnavn = "Samfunnsfag";
+                    masterfag_samfunnsfag_2.KlasseId = 2;
+                    context.Add(masterfag_samfunnsfag_2);
+
+                        //Muligheter masterFagId 22
+                        var samfunnsfag_muligheter1_2 = new Muligheter();
+                        samfunnsfag_muligheter1_2.Id = 112;
+                        samfunnsfag_muligheter1_2.Fagnavn = "Samfunnsfag 1, emne 1";
+                        samfunnsfag_muligheter1_2.Semester = 4;
+                        samfunnsfag_muligheter1_2.Emnekode = "M5GSF2100";
+                        samfunnsfag_muligheter1_2.SP = 15;
+                        samfunnsfag_muligheter1_2.MasterFagId = 22;
+                        context.Add(samfunnsfag_muligheter1_2);
+
+                        //Muligheter masterFagId 22
+                        var samfunnsfag_muligheter2_2 = new Muligheter();
+                        samfunnsfag_muligheter2_2.Id = 113;
+                        samfunnsfag_muligheter2_2.Fagnavn = "Samfunnsfag 1, emne 2";
+                        samfunnsfag_muligheter2_2.Semester = 4;
+                        samfunnsfag_muligheter2_2.Emnekode = "M5GSF2200";
+                        samfunnsfag_muligheter2_2.SP = 15;
+                        samfunnsfag_muligheter2_2.MasterFagId = 22;
+                        context.Add(samfunnsfag_muligheter2_2);
+
+                        //Muligheter masterFagId 22
+                        var samfunnsfag_muligheter3_2 = new Muligheter();
+                        samfunnsfag_muligheter3_2.Id = 114;
+                        samfunnsfag_muligheter3_2.Fagnavn = "Samfunnsfag 2, emne 3";
+                        samfunnsfag_muligheter3_2.Semester = 5;
+                        samfunnsfag_muligheter3_2.Emnekode = "M5GSF3100";
+                        samfunnsfag_muligheter3_2.SP = 30;
+                        samfunnsfag_muligheter3_2.MasterFagId = 22;
+                        context.Add(samfunnsfag_muligheter3_2);
+
+                        //Muligheter masterFagId 22
+                        var samfunnsfag_muligheter4_2 = new Muligheter();
+                        samfunnsfag_muligheter4_2.Id = 115;
+                        samfunnsfag_muligheter4_2.Fagnavn = "Samfunnsfag og samfunnsfagdidaktikk 1";
+                        samfunnsfag_muligheter4_2.Semester = 7;
+                        samfunnsfag_muligheter4_2.Emnekode = "MGSF4100";
+                        samfunnsfag_muligheter4_2.SP = 15;
+                        samfunnsfag_muligheter4_2.MasterFagId = 22;
+                        context.Add(samfunnsfag_muligheter4_2);
+
+                        //Muligheter masterFagId 22
+                        var samfunnsfag_muligheter5_2 = new Muligheter();
+                        samfunnsfag_muligheter5_2.Id = 116;
+                        samfunnsfag_muligheter5_2.Fagnavn = "Samfunnsfag og samfunnsfagdidaktikk 2";
+                        samfunnsfag_muligheter5_2.Semester = 8;
+                        samfunnsfag_muligheter5_2.Emnekode = "MGSF4200";
+                        samfunnsfag_muligheter5_2.SP = 15;
+                        samfunnsfag_muligheter5_2.MasterFagId = 22;
+                        context.Add(samfunnsfag_muligheter5_2);
+
+                        //Muligheter masterFagId 22
+                        var samfunnsfag_muligheter6_2 = new Muligheter();
+                        samfunnsfag_muligheter6_2.Id = 117;
+                        samfunnsfag_muligheter6_2.Fagnavn = "Samfunnsfag og samfunnsfagdidaktikk 3";
+                        samfunnsfag_muligheter6_2.Semester = 9;
+                        samfunnsfag_muligheter6_2.Emnekode = "MGSF5100";
+                        samfunnsfag_muligheter6_2.SP = 15;
+                        samfunnsfag_muligheter6_2.MasterFagId = 22;
+                        context.Add(samfunnsfag_muligheter6_2);
+
+
+
+                    //Masterfag Tegnspråk
+                    var masterfag_tegnspråk_2 = new MasterFag();
+                    masterfag_tegnspråk_2.Id = 23;
+                    masterfag_tegnspråk_2.Fagnavn = "Tegnspråk";
+                    masterfag_tegnspråk_2.KlasseId = 2;
+                    context.Add(masterfag_tegnspråk_2);
+
+                        //Muligheter masterFagId 23
+                        var tegnspråk_muligheter1_2 = new Muligheter();
+                        tegnspråk_muligheter1_2.Id = 118;
+                        tegnspråk_muligheter1_2.Fagnavn = "Norsk tegnspråk 1";
+                        tegnspråk_muligheter1_2.Semester = 5;
+                        tegnspråk_muligheter1_2.Emnekode = "MGNT3100";
+                        tegnspråk_muligheter1_2.SP = 0;
+                        tegnspråk_muligheter1_2.MasterFagId = 23;
+                        context.Add(tegnspråk_muligheter1);
+
+                        //Muligheter masterFagId 23
+                        var tegnspråk_muligheter2_2 = new Muligheter();
+                        tegnspråk_muligheter2_2.Id = 119;
+                        tegnspråk_muligheter2_2.Fagnavn = "Norsk tegnspråk 2";
+                        tegnspråk_muligheter2_2.Semester = 6;
+                        tegnspråk_muligheter2_2.Emnekode = "MGNT3200";
+                        tegnspråk_muligheter2_2.SP = 0;
+                        tegnspråk_muligheter2_2.MasterFagId = 23;
+                        context.Add(tegnspråk_muligheter2_2);
+
+                        //Muligheter masterFagId 23
+                        var tegnspråk_muligheter3_2 = new Muligheter();
+                        tegnspråk_muligheter3_2.Id = 120;
+                        tegnspråk_muligheter3_2.Fagnavn = "";
+                        tegnspråk_muligheter3_2.Semester = 7;
+                        tegnspråk_muligheter3_2.Emnekode = "";
+                        tegnspråk_muligheter3_2.SP = 0;
+                        tegnspråk_muligheter3_2.MasterFagId = 23;
+                        context.Add(tegnspråk_muligheter3_2);
+
+                        //Muligheter masterFagId 23
+                        var tegnspråk_muligheter4_2 = new Muligheter();
+                        tegnspråk_muligheter4_2.Id = 121;
+                        tegnspråk_muligheter4_2.Fagnavn = "";
+                        tegnspråk_muligheter4_2.Semester = 8;
+                        tegnspråk_muligheter4_2.Emnekode = "";
+                        tegnspråk_muligheter4_2.SP = 0;
+                        tegnspråk_muligheter4_2.MasterFagId = 23;
+                        context.Add(tegnspråk_muligheter4_2);
+
+                        //Muligheter masterFagId 23
+                        var tegnspråk_muligheter5_2 = new Muligheter();
+                        tegnspråk_muligheter5_2.Id = 122;
+                        tegnspråk_muligheter5_2.Fagnavn = "";
+                        tegnspråk_muligheter5_2.Semester = 9;
+                        tegnspråk_muligheter5_2.Emnekode = "";
+                        tegnspråk_muligheter5_2.SP = 0;
+                        tegnspråk_muligheter5_2.MasterFagId = 23;
+                        context.Add(tegnspråk_muligheter5_2);
+
+
+                    //Masterfag Profesjonell pedagogikk
+                    var masterfag_profped_2 = new MasterFag();
+                    masterfag_profped_2.Id = 24;
+                    masterfag_profped_2.Fagnavn = "Profesjonsrettet pedagogikk";
+                    masterfag_profped_2.KlasseId = 2;
+                    context.Add(masterfag_profped_2);
+
+                        //Muligheter masterFagId 24
+                        var prof_ped1_2 = new Muligheter();
+                        prof_ped1_2.Id = 123;
+                        prof_ped1_2.Fagnavn = "Pedagogikk fordypning 1: Profesjonsrettet pedagogikk";
+                        prof_ped1_2.Semester = 6;
+                        prof_ped1_2.Emnekode = "MGPE3100";
+                        prof_ped1_2.SP = 30;
+                        prof_ped1_2.MasterFagId = 24;
+                        context.Add(prof_ped1_2);
+
+                        //Muligheter masterFagId 24
+                        var prof_ped2_2 = new Muligheter();
+                        prof_ped2_2.Id = 124;
+                        prof_ped2_2.Fagnavn = "Pedagogikk fordypning 2: Profesjonsrettet pedagogikk";
+                        prof_ped2_2.Semester = 9;
+                        prof_ped2_2.Emnekode = "MGPE5100";
+                        prof_ped2_2.SP = 30;
+                        prof_ped2_2.MasterFagId = 24;
+                        context.Add(prof_ped2_2);
+
+
+
+                    //Masterfag digital pedagogikk
+                    var masterfag_digped_2 = new MasterFag();
+                    masterfag_digped_2.Id = 25;
+                    masterfag_digped_2.Fagnavn = "Profesjonsrettet pedagogikk";
+                    masterfag_digped_2.KlasseId = 2;
+                    context.Add(masterfag_digped_2);
+
+                        //Muligheter masterFagId 25
+                        var dig_ped1_2 = new Muligheter();
+                        dig_ped1_2.Id = 125;
+                        dig_ped1_2.Fagnavn = "Pedagogikk fordypning 1: Digitalt støttet pedagogikk";
+                        dig_ped1_2.Semester = 6;
+                        dig_ped1_2.Emnekode = "MGPE3200";
+                        dig_ped1_2.SP = 30;
+                        dig_ped1_2.MasterFagId = 25;
+                        context.Add(dig_ped1_2);
+
+                        //Muligheter masterFagId 25
+                        var dig_ped2_2 = new Muligheter();
+                        dig_ped2_2.Id = 126;
+                        dig_ped2_2.Fagnavn = "Pedagogikk fordypning 2: Digitalt støttet pedagogikk";
+                        dig_ped2_2.Semester = 9;
+                        dig_ped2_2.Emnekode = "MGPE5200";
+                        dig_ped2_2.SP = 30;
+                        dig_ped2_2.MasterFagId = 25;
+                        context.Add(dig_ped2_2);
+
+
+
+                    //Masterfag Profesjonell pedagogikk
+                    var masterfag_spesped_2 = new MasterFag();
+                    masterfag_spesped_2.Id = 26;
+                    masterfag_spesped_2.Fagnavn = "Profesjonsrettet pedagogikk";
+                    masterfag_spesped_2.KlasseId = 2;
+                    context.Add(masterfag_spesped_2);
+
+                        //Muligheter masterFagId 26
+                        var spes_ped1_2 = new Muligheter();
+                        spes_ped1_2.Id = 127;
+                        spes_ped1_2.Fagnavn = "Pedagogikk fordypning 1: Spesialpedagogikk";
+                        spes_ped1_2.Semester = 6;
+                        spes_ped1_2.Emnekode = "MGPE3300";
+                        spes_ped1_2.SP = 30;
+                        spes_ped1_2.MasterFagId = 26;
+                        context.Add(spes_ped1_2);
+
+                        //Muligheter masterFagId 26
+                        var spes_ped2_2 = new Muligheter();
+                        spes_ped2_2.Id = 128;
+                        spes_ped2_2.Fagnavn = "Pedagogikk fordypning 2: Spesialpedagogikk";
+                        spes_ped2_2.Semester = 9;
+                        spes_ped2_2.Emnekode = "MGPE5300";
+                        spes_ped2_2.SP = 30;
+                        spes_ped2_2.MasterFagId = 26;
+                        context.Add(spes_ped2_2);
 
 
 
