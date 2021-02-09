@@ -91,13 +91,6 @@ namespace oslometAPI.Data
                         context.Add(oblig_norsk3);
 
 
-                   
-
-                    //fylle tabell 4. sem
-                    //fylle tabell 5. sem
-                    //fylle tabell 6. sem
-
-
 
                         //Masterfag 1 Norsk
                         var masterfag_norsk = new MasterFag();
@@ -146,7 +139,7 @@ namespace oslometAPI.Data
                             norsk_muligheter4.MasterFagId = 1;
                             context.Add(norsk_muligheter4);
 
-
+      
 
                         //Masterfag 2 Matte
                         var masterfag_matte = new MasterFag();
@@ -683,6 +676,7 @@ namespace oslometAPI.Data
                             tegnspråk_muligheter2.Emnekode = "MGNT3200";
                             tegnspråk_muligheter2.Studiepoeng = 30;
                             tegnspråk_muligheter2.MasterFagId = 10;
+                tegnspråk_muligheter2.KlasseId = 1;
                             context.Add(tegnspråk_muligheter2);
 
                             //Muligheter masterFagId 10
@@ -760,6 +754,7 @@ namespace oslometAPI.Data
                             dig_ped1.Semester = 6;
                             dig_ped1.Emnekode = "MGPE3200";
                             dig_ped1.Studiepoeng = 30;
+                dig_ped1.KlasseId = 1;
                             dig_ped1.MasterFagId = 12;
                             context.Add(dig_ped1);
 
@@ -789,6 +784,7 @@ namespace oslometAPI.Data
                             spes_ped1.Semester = 6;
                             spes_ped1.Emnekode = "MGPE3300";
                             spes_ped1.Studiepoeng = 30;
+                spes_ped1.KlasseId = 1;
                             spes_ped1.MasterFagId = 13;
                             context.Add(spes_ped1);
 
@@ -1619,6 +1615,224 @@ namespace oslometAPI.Data
                         spes_ped2_2.Studiepoeng = 30;
                         spes_ped2_2.MasterFagId = 26;
                         context.Add(spes_ped2_2);
+
+
+
+                //tabell for brukeropplæring 1-7
+
+                //Masterfag brukeropplæring
+                var brukeropplæring = new MasterFag();
+                brukeropplæring.Id = 27;
+                brukeropplæring.Fagnavn = "Brukeropplæring";
+                brukeropplæring.KlasseId = 1;
+                context.Add(brukeropplæring);
+
+                    //Muligheter masterFagId 27
+                    var brukeropplæring1 = new Muligheter();
+                    brukeropplæring1.Id = 129;
+                    brukeropplæring1.Fagnavn = "Begynneropplæring 1";
+                    brukeropplæring1.Semester = 7;
+                    brukeropplæring1.Emnekode = "M1GBO4100";
+                    brukeropplæring1.Studiepoeng = 15;
+                    brukeropplæring1.MasterFagId = 27;
+                    context.Add(brukeropplæring1);
+
+                    //Muligheter masterFagId 27
+                    var brukeropplæring2 = new Muligheter();
+                    brukeropplæring2.Id = 130;
+                    brukeropplæring2.Fagnavn = "Begynneropplæring 2";
+                    brukeropplæring2.Semester = 8;
+                    brukeropplæring2.Emnekode = "M1GBO4200";
+                    brukeropplæring2.Studiepoeng = 15;
+                    brukeropplæring2.MasterFagId = 27;
+                    context.Add(brukeropplæring2);
+
+                    //Muligheter masterFagId 27
+                    var brukeropplæring3 = new Muligheter();
+                    brukeropplæring3.Id = 131;
+                    brukeropplæring3.Fagnavn = "Begynneropplæring 3";
+                    brukeropplæring3.Semester = 9;
+                    brukeropplæring3.Emnekode = "M1GBO5100";
+                    brukeropplæring3.Studiepoeng = 15;
+                    brukeropplæring3.MasterFagId = 27;
+                    context.Add(brukeropplæring3);
+
+
+
+
+
+
+                ////TABELL FOR 1-7
+                ////fylle tabell 4. sem
+
+                //// Engelsk 1
+                //var engelsk_fyllefag = new FylleFags();
+                //engelsk_fyllefag.Id = 1;
+                //engelsk_fyllefag.Fagnavn = "Engelsk";
+                //engelsk_fyllefag.KlasseId = 1;
+                //context.Add(engelsk_fyllefag);
+
+                //    var engelsk_fyllefag1 = new Muligheter();
+                //    engelsk_fyllefag1.Id = 1;
+                //    engelsk_fyllefag1.Fagnavn = "Engelsk 1, emne 1";
+                //    engelsk_fyllefag1.Semester = 4;
+                //    engelsk_fyllefag1.Emnekode = "M1GEN2100";
+                //    engelsk_fyllefag1.Studiepoeng = 15;
+                //    engelsk_fyllefag1.FylleFagId = 1;
+                //    context.Add(engelsk_fyllefag1);
+
+                //    var engelsk_fyllefag2 = new Muligheter();
+                //    engelsk_fyllefag2.Id = 2;
+                //    engelsk_fyllefag2.Fagnavn = "Engelsk 1, emne 2";
+                //    engelsk_fyllefag2.Semester = 4;
+                //    engelsk_fyllefag2.Emnekode = "M1GEN2200";
+                //    engelsk_fyllefag2.Studiepoeng = 15;
+                //    engelsk_fyllefag2.FylleFagId = 1;
+                //    context.Add(engelsk_fyllefag2);
+
+                //// KRLE 2
+                //var KRLE_fyllefag = new FylleFags();
+                //KRLE_fyllefag.Id = 2;
+                //KRLE_fyllefag.Fagnavn = "KRLE";
+                //KRLE_fyllefag.KlasseId = 1;
+                //context.Add(KRLE_fyllefag);
+
+                //    var KRLE_fyllefag1 = new Muligheter();
+                //    KRLE_fyllefag1.Id = 3;
+                //    KRLE_fyllefag1.Fagnavn = "RLE 1, emne 1";
+                //    KRLE_fyllefag1.Semester = 4;
+                //    KRLE_fyllefag1.Emnekode = "M1GRL2100";
+                //    KRLE_fyllefag1.Studiepoeng = 15;
+                //    KRLE_fyllefag1.FylleFagId = 2;
+                //    context.Add(KRLE_fyllefag1);
+
+                //    var KRLE_fyllefag2 = new Muligheter();
+                //    KRLE_fyllefag2.Id = 4;
+                //    KRLE_fyllefag2.Fagnavn = "RLE 1, emne 2";
+                //    KRLE_fyllefag2.Semester = 4;
+                //    KRLE_fyllefag2.Emnekode = "M1GRL2200";
+                //    KRLE_fyllefag2.Studiepoeng = 15;
+                //    KRLE_fyllefag2.FylleFagId = 2;
+                //    context.Add(KRLE_fyllefag2);
+
+                //// Kroppsøving 3
+                //var gym_fyllefag = new FylleFags();
+                //gym_fyllefag.Id = 3;
+                //gym_fyllefag.Fagnavn = "Kroppsøving";
+                //gym_fyllefag.KlasseId = 1;
+                //context.Add(gym_fyllefag);
+
+                //    var gym_fyllefag1 = new Muligheter();
+                //    gym_fyllefag1.Id = 5;
+                //    gym_fyllefag1.Fagnavn = "Kroppsøving 1, emne 1";
+                //    gym_fyllefag1.Semester = 4;
+                //    gym_fyllefag1.Emnekode = "M1GKP2100";
+                //    gym_fyllefag1.Studiepoeng = 30;
+                //    gym_fyllefag1.FylleFagId = 3;
+                //    context.Add(gym_fyllefag1);
+
+                //// Kunst & Håndtverk 4
+                //var KH_fyllefag = new FylleFags();
+                //KH_fyllefag.Id = 4;
+                //KH_fyllefag.Fagnavn = "Kunst og håndverk";
+                //KH_fyllefag.KlasseId = 1;
+                //context.Add(KH_fyllefag);
+
+                //    var KH_fyllefag1 = new Muligheter();
+                //    KH_fyllefag1.Id = 6;
+                //    KH_fyllefag1.Fagnavn = "Kunst og håndverk 1, emne 1";
+                //    KH_fyllefag1.Semester = 4;
+                //    KH_fyllefag1.Emnekode = "MGKH2100";
+                //    KH_fyllefag1.Studiepoeng = 30;
+                //    KH_fyllefag1.FylleFagId = 4;
+                //    context.Add(KH_fyllefag1);
+
+                //// Musikk 5
+                //var musikk_fyllefag = new FylleFags();
+                //musikk_fyllefag.Id = 5;
+                //musikk_fyllefag.Fagnavn = "Musikk";
+                //musikk_fyllefag.KlasseId = 1;
+                //context.Add(musikk_fyllefag);
+
+                //    var musikk_fyllefag1 = new Muligheter();
+                //    musikk_fyllefag1.Id = 7;
+                //    musikk_fyllefag1.Fagnavn = "Musikk 1, emne 1";
+                //    musikk_fyllefag1.Semester = 4;
+                //    musikk_fyllefag1.Emnekode = "M1GMU2100";
+                //    musikk_fyllefag1.Studiepoeng = 15;
+                //    musikk_fyllefag1.FylleFagId = 5;
+                //    context.Add(musikk_fyllefag1);
+
+                //    var musikk_fyllefag2 = new Muligheter();
+                //    musikk_fyllefag2.Id = 8;
+                //    musikk_fyllefag2.Fagnavn = "Musikk 1, emne 2";
+                //    musikk_fyllefag2.Semester = 4;
+                //    musikk_fyllefag2.Emnekode = "M1GMU2200";
+                //    musikk_fyllefag2.Studiepoeng = 15;
+                //    musikk_fyllefag2.FylleFagId = 5;
+                //    context.Add(musikk_fyllefag2);
+
+                //// Naturfag 6
+                //var naturfag_fyllefag = new FylleFags();
+                //naturfag_fyllefag.Id = 6;
+                //naturfag_fyllefag.Fagnavn = "Naturfag";
+                //naturfag_fyllefag.KlasseId = 1;
+                //context.Add(naturfag_fyllefag);
+
+                //    var naturfag_fyllefag1 = new Muligheter();
+                //    naturfag_fyllefag1.Id = 9;
+                //    naturfag_fyllefag1.Fagnavn = "Naturfag 1, emne 1";
+                //    naturfag_fyllefag1.Semester = 4;
+                //    naturfag_fyllefag1.Emnekode = "M1GNA2100";
+                //    naturfag_fyllefag1.Studiepoeng = 15;
+                //    naturfag_fyllefag1.FylleFagId = 6;
+                //    context.Add(naturfag_fyllefag1);
+
+                //    var naturfag_fyllefag2 = new Muligheter();
+                //    naturfag_fyllefag2.Id = 10;
+                //    naturfag_fyllefag2.Fagnavn = "Naturfag 1, emne 2";
+                //    naturfag_fyllefag2.Semester = 4;
+                //    naturfag_fyllefag2.Emnekode = "M1GNA2200";
+                //    naturfag_fyllefag2.Studiepoeng = 15;
+                //    naturfag_fyllefag2.FylleFagId = 6;
+                //    context.Add(naturfag_fyllefag2);
+
+                //// Samfunnsfag 7
+                //var samfunnsfag_fyllefag = new FylleFags();
+                //samfunnsfag_fyllefag.Id = 7;
+                //samfunnsfag_fyllefag.Fagnavn = "Samfunnsfag";
+                //samfunnsfag_fyllefag.KlasseId = 1;
+                //context.Add(samfunnsfag_fyllefag);
+
+                //    var samfunnsfag_fyllefag1 = new Muligheter();
+                //    samfunnsfag_fyllefag1.Id = 11;
+                //    samfunnsfag_fyllefag1.Fagnavn = "Samfunnsfag 1, emne 1";
+                //    samfunnsfag_fyllefag1.Semester = 4;
+                //    samfunnsfag_fyllefag1.Emnekode = "M1GSF2100";
+                //    samfunnsfag_fyllefag1.Studiepoeng = 15;
+                //    samfunnsfag_fyllefag1.FylleFagId = 7;
+                //    context.Add(samfunnsfag_fyllefag1);
+
+                //    var samfunnsfag_fyllefag2 = new Muligheter();
+                //    samfunnsfag_fyllefag2.Id = 12;
+                //    samfunnsfag_fyllefag2.Fagnavn = "Samfunnsfag 1, emne 2";
+                //    samfunnsfag_fyllefag2.Semester = 4;
+                //    samfunnsfag_fyllefag2.Emnekode = "M1GSF2200";
+                //    samfunnsfag_fyllefag2.Studiepoeng = 15;
+                //    samfunnsfag_fyllefag2.FylleFagId = 7;
+                //    context.Add(samfunnsfag_fyllefag2);
+
+
+
+
+
+                ////fylle tabell 5. sem
+
+
+
+                ////fylle tabell 6. sem
+
+
 
 
 
