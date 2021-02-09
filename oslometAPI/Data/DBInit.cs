@@ -312,7 +312,7 @@ namespace oslometAPI.Data
                         //Masterfag 5 kroppsøving
                         var masterfag_gym = new MasterFag();
                         masterfag_gym.Id = 5;
-                        masterfag_gym.Fagnavn = "Gym";
+                        masterfag_gym.Fagnavn = "Kroppsøving";
                         masterfag_gym.KlasseId = 1;
                         context.Add(masterfag_gym);
 
@@ -365,7 +365,7 @@ namespace oslometAPI.Data
                         //Masterfag 6 KH
                         var masterfag_KH = new MasterFag();
                         masterfag_KH.Id = 6;
-                        masterfag_KH.Fagnavn = "KH";
+                        masterfag_KH.Fagnavn = "Kunst og håndverk";
                         masterfag_KH.KlasseId = 1;
                         context.Add(masterfag_KH);
 
@@ -736,7 +736,7 @@ namespace oslometAPI.Data
                             spes_ped2.Emnekode = "MGPE5300";
                             spes_ped2.MasterFagId = 13;
                             context.Add(spes_ped2);
-
+                        
 
 
 
@@ -1092,7 +1092,7 @@ namespace oslometAPI.Data
                     //Masterfag kroppsøving
                     var masterfag_gym_2 = new MasterFag();
                     masterfag_gym_2.Id = 18;
-                    masterfag_gym_2.Fagnavn = "Gym";
+                    masterfag_gym_2.Fagnavn = "Kroppsøving";
                     masterfag_gym_2.KlasseId = 2;
                     context.Add(masterfag_gym_2);
 
@@ -1151,7 +1151,7 @@ namespace oslometAPI.Data
                     //Masterfag KH
                     var masterfag_KH_2 = new MasterFag();
                     masterfag_KH_2.Id = 19;
-                    masterfag_KH_2.Fagnavn = "KH";
+                    masterfag_KH_2.Fagnavn = "Kunst og håndverk";
                     masterfag_KH_2.KlasseId = 2;
                     context.Add(masterfag_KH_2);
 
