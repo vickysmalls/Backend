@@ -90,10 +90,74 @@ namespace oslometAPI.Data
                         oblig_norsk3.KlasseId = 1;
                         context.Add(oblig_norsk3);
 
+                        //obligatoriske fag generelt
+                        //PEL1
+                        var oblig_pel = new ObligFags();
+                        oblig_pel.Id = 132;
+                        oblig_pel.Fagnavn = "Pedagogikk og elevkunnskap 1, emne 1";
+                        oblig_pel.Semester = 1;
+                        oblig_pel.Emnekode = "M1GPE1100";
+                        oblig_pel.Studiepoeng = 10;
+                        oblig_pel.KlasseId = 1;
+                        context.Add(oblig_pel);
+
+                        //PEL2
+                        var oblig_pel2 = new ObligFags();
+                        oblig_pel2.Id = 133;
+                        oblig_pel2.Fagnavn = "Pedagogikk og elevkunnskap 1, emne 2";
+                        oblig_pel2.Semester = 2;
+                        oblig_pel2.Emnekode = "M1GPE1200";
+                        oblig_pel2.Studiepoeng = 10;
+                        oblig_pel2.KlasseId = 1;
+                        context.Add(oblig_pel2);
+
+                        //PEL3
+                        var oblig_pel3 = new ObligFags();
+                        oblig_pel3.Id = 134;
+                        oblig_pel3.Fagnavn = "Pedagogikk og elevkunnskap 1, emne 3";
+                        oblig_pel3.Semester = 3;
+                        oblig_pel3.Emnekode = "M1GPE1200";
+                        oblig_pel3.Studiepoeng = 10;
+                        oblig_pel3.KlasseId = 1;
+                        context.Add(oblig_pel3);
+
+                        //V&M
+                        var oblig_VM = new ObligFags();
+                        oblig_VM.Id = 135;
+                        oblig_VM.Fagnavn = "Vitenskapsteori og metodikk";
+                        oblig_VM.Semester = 7;
+                        oblig_VM.Emnekode = "MGVM4100";
+                        oblig_VM.Studiepoeng = 15;
+                        oblig_VM.KlasseId = 1;
+                        context.Add(oblig_VM);
+
+                        //PEL4
+                        var oblig_pel4 = new ObligFags();
+                        oblig_pel4.Id = 136;
+                        oblig_pel4.Fagnavn = "Pedagogikk og elevkunnskap 2, emne 1";
+                        oblig_pel4.Semester = 8;
+                        oblig_pel4.Emnekode = "M1GPE4100";
+                        oblig_pel4.Studiepoeng = 15;
+                        oblig_pel4.KlasseId = 1;
+                        context.Add(oblig_pel4);
+
+                        //PEL5
+                        var oblig_pel5 = new ObligFags();
+                        oblig_pel5.Id = 137;
+                        oblig_pel5.Fagnavn = "Pedagogikk og elevkunnskap 2, emne 2";
+                        oblig_pel5.Semester = 9;
+                        oblig_pel5.Emnekode = "M1GPE5100";
+                        oblig_pel5.Studiepoeng = 15;
+                        oblig_pel5.KlasseId = 1;
+                        context.Add(oblig_pel5);
 
 
-                        //Masterfag 1 Norsk
-                        var masterfag_norsk = new MasterFag();
+
+
+
+
+                //Masterfag 1 Norsk
+                var masterfag_norsk = new MasterFag();
                         masterfag_norsk.Id = 1;
                         masterfag_norsk.Fagnavn = "Norsk";
                         masterfag_norsk.KlasseId = 1;
@@ -901,7 +965,7 @@ namespace oslometAPI.Data
 
                     var oblig_engelsk3_2 = new ObligFags();
                     oblig_engelsk3_2.Id = 67;
-                    oblig_engelsk3_2.Fagnavn = "Matematikk, emne 2";
+                    oblig_engelsk3_2.Fagnavn = "Engelsk, emne 2";
                     oblig_engelsk3_2.Semester = 2;
                     oblig_engelsk3_2.Emnekode = "M5GEN1200";
                     oblig_engelsk3_2.Studiepoeng = 7.5;
@@ -974,10 +1038,76 @@ namespace oslometAPI.Data
                     oblig_norsk5_2.KlasseId = 2;
                     context.Add(oblig_norsk5_2);
 
+
+                    // generelt obligatoriske fag
+                    //PEL1 - sem 1
+                    var oblig_pel_2 = new ObligFags();
+                    oblig_pel_2.Id = 138;
+                    oblig_pel_2.Fagnavn = "Pedagogikk og elevkunnskap 1, emne 1";
+                    oblig_pel_2.Semester = 1;
+                    oblig_pel_2.Emnekode = "M5GPE1100";
+                    oblig_pel_2.Studiepoeng = 7.5;
+                    oblig_pel_2.KlasseId = 2;
+                    context.Add(oblig_pel_2);
+
+                    //PEL1 - sem 2
+                    var oblig_pel2_2 = new ObligFags();
+                    oblig_pel2_2.Id = 139;
+                    oblig_pel2_2.Fagnavn = "Pedagogikk og elevkunnskap 1, emne 1";
+                    oblig_pel2_2.Semester = 2;
+                    oblig_pel2_2.Emnekode = "M1GPE1100";
+                    oblig_pel2_2.Studiepoeng = 7.5;
+                    oblig_pel2_2.KlasseId = 2;
+                    context.Add(oblig_pel2_2);
+
+                    //PEL2
+                    var oblig_pel3_2 = new ObligFags();
+                    oblig_pel3_2.Id = 140;
+                    oblig_pel3_2.Fagnavn = "Pedagogikk og elevkunnskap 1, emne 2";
+                    oblig_pel3_2.Semester = 3;
+                    oblig_pel3_2.Emnekode = "M5GPE2100";
+                    oblig_pel3_2.Studiepoeng = 15;
+                    oblig_pel3_2.KlasseId = 2;
+                    context.Add(oblig_pel3_2);
+
+                    //V&M
+                    var oblig_VM_2 = new ObligFags();
+                    oblig_VM_2.Id = 143;
+                    oblig_VM_2.Fagnavn = "Vitenskapsteori og metodikk";
+                    oblig_VM_2.Semester = 7;
+                    oblig_VM_2.Emnekode = "MGVM4100";
+                    oblig_VM_2.Studiepoeng = 15;
+                    oblig_VM_2.KlasseId = 2;
+                    context.Add(oblig_VM_2);
+
+                    //PEL3
+                    var oblig_pel4_2 = new ObligFags();
+                    oblig_pel4_2.Id = 141;
+                    oblig_pel4_2.Fagnavn = "Pedagogikk og elevkunnskap 2, emne 1";
+                    oblig_pel4_2.Semester = 8;
+                    oblig_pel4_2.Emnekode = "M5GPE4100";
+                    oblig_pel4_2.Studiepoeng = 15;
+                    oblig_pel4_2.KlasseId = 2;
+                    context.Add(oblig_pel4_2);
+
+                    //PEL4
+                    var oblig_pel5_2 = new ObligFags();
+                    oblig_pel5_2.Id = 142;
+                    oblig_pel5_2.Fagnavn = "Pedagogikk og elevkunnskap 2, emne 2";
+                    oblig_pel5_2.Semester = 9;
+                    oblig_pel5_2.Emnekode = "M5GPE5100";
+                    oblig_pel5_2.Studiepoeng = 15;
+                    oblig_pel5_2.KlasseId = 2;
+                    context.Add(oblig_pel5_2);
+
+
+
+
+
                 //Masterfag
 
-                    //Masterfag 1 Norsk
-                    var masterfag_norsk_2 = new MasterFag();
+                //Masterfag 1 Norsk
+                var masterfag_norsk_2 = new MasterFag();
                     masterfag_norsk_2.Id = 14;
                     masterfag_norsk_2.Fagnavn = "Norsk";
                     masterfag_norsk_2.KlasseId = 2;
