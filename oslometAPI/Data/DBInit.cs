@@ -819,11 +819,11 @@ namespace oslometAPI.Data
                         //Masterfag 12 digital pedagogikk
                         var masterfag_digped = new MasterFag();
                         masterfag_digped.Id = 12;
-                        masterfag_digped.Fagnavn = "Profesjonsrettet pedagogikk";
+                        masterfag_digped.Fagnavn = "Digital støttet pedagogikk";
                         masterfag_digped.KlasseId = 1;
                         context.Add(masterfag_digped);
 
-                            //Muligheter masterFagId 12
+                            //Muligheter masterFagId 11
                             var dig_ped1 = new Muligheter();
                             dig_ped1.Id = 56;
                             dig_ped1.Fagnavn = "Pedagogikk fordypning 1: Digitalt støttet pedagogikk";
@@ -849,7 +849,7 @@ namespace oslometAPI.Data
                         //Masterfag 13 Profesjonell pedagogikk
                         var masterfag_spesped = new MasterFag();
                         masterfag_spesped.Id = 13;
-                        masterfag_spesped.Fagnavn = "Profesjonsrettet pedagogikk";
+                        masterfag_spesped.Fagnavn = "Spesialpedagogikk";
                         masterfag_spesped.KlasseId = 1;
                         context.Add(masterfag_spesped);
 
