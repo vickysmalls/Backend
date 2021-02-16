@@ -282,7 +282,7 @@ namespace oslometAPI.Data
                             engelsk_muligheter2.Emnekode = "M1GEN2200";
                             engelsk_muligheter2.Studiepoeng = 15;
                             engelsk_muligheter2.MasterFagId = 3;
-                            engelsk_muligheter1.KlasseId = 1;
+                            engelsk_muligheter2.KlasseId = 1;
                             context.Add(engelsk_muligheter2);
 
                             //Muligheter masterFagId 3
@@ -535,6 +535,7 @@ namespace oslometAPI.Data
                             musikk_muligheter1.Emnekode = "M1GMU2100";
                             musikk_muligheter1.Studiepoeng = 15;
                             musikk_muligheter1.MasterFagId = 7;
+                            musikk_muligheter1.KlasseId = 1;
                             context.Add(musikk_muligheter1);
 
                             //Muligheter masterFagId 7
@@ -617,7 +618,7 @@ namespace oslometAPI.Data
                             naturfag_muligheter2.Emnekode = "M1GNA2200";
                             naturfag_muligheter2.Studiepoeng = 15;
                             naturfag_muligheter2.MasterFagId = 8;
-                            naturfag_muligheter1.KlasseId = 1;
+                            naturfag_muligheter2.KlasseId = 1;
                             context.Add(naturfag_muligheter2);
 
                             //Muligheter masterFagId 8
@@ -739,7 +740,7 @@ namespace oslometAPI.Data
                         var masterfag_tegnspråk = new MasterFag();
                         masterfag_tegnspråk.Id = 10;
                         masterfag_tegnspråk.Fagnavn = "Tegnspråk";
-                        masterfag_tegnspråk.KlasseId = 10;
+                        masterfag_tegnspråk.KlasseId = 1;
                         context.Add(masterfag_tegnspråk);
 
                             //Muligheter masterFagId 10
@@ -909,7 +910,7 @@ namespace oslometAPI.Data
                     //obligatoriske mattefag
                     var oblig_matte1_2 = new ObligFags();
                     oblig_matte1_2.Id = 60;
-                    oblig_matte1_2.Fagnavn = "Matematikk, emne 1";
+                    oblig_matte1_2.Fagnavn = "Matematikk, emne 1 og 2";
                     oblig_matte1_2.Semester = 1;
                     oblig_matte1_2.Emnekode = "M5GMT1100";
                     oblig_matte1_2.Studiepoeng = 15;
@@ -936,7 +937,7 @@ namespace oslometAPI.Data
 
                     var oblig_matte4_2 = new ObligFags();
                     oblig_matte4_2.Id = 63;
-                    oblig_matte4_2.Fagnavn = "Matematikk, emne 3";
+                    oblig_matte4_2.Fagnavn = "Matematikk, emne 2 og 3";
                     oblig_matte4_2.Semester = 2;
                     oblig_matte4_2.Emnekode = "M5GMT1300";
                     oblig_matte4_2.Studiepoeng = 15;
@@ -1392,7 +1393,7 @@ namespace oslometAPI.Data
                         KH_muligheter2_2.Emnekode = "MGKH2100";
                         KH_muligheter2_2.Studiepoeng = 30;
                         KH_muligheter2_2.MasterFagId = 19;
-                        KH_muligheter2_2.KlasseId 2;
+                        KH_muligheter2_2.KlasseId = 2;
                         context.Add(KH_muligheter2_2);
 
                         //Muligheter masterFagId 19
@@ -1799,6 +1800,14 @@ namespace oslometAPI.Data
                 brukeropplæring.Fagnavn = "Brukeropplæring";
                 brukeropplæring.KlasseId = 1;
                 context.Add(brukeropplæring);
+
+                    //Muligheter masterFagId 27
+                    var opplæring_fyll = new Muligheter();
+                    opplæring_fyll.Id = 144;
+                    opplæring_fyll.Fagnavn = "30Sp fra matte eller norsk";
+                    opplæring_fyll.Semester = 5;
+                    opplæring_fyll.MasterFagId = 27;
+                    context.Add(opplæring_fyll);
 
                     //Muligheter masterFagId 27
                     var brukeropplæring1 = new Muligheter();
