@@ -171,6 +171,7 @@ namespace oslometAPI.Data
                             norsk_muligheter1.Emnekode = "M1GNO3100";
                             norsk_muligheter1.Studiepoeng = 30;
                             norsk_muligheter1.MasterFagId = 1;
+                            norsk_muligheter1.KlasseId = 1;
                             context.Add(norsk_muligheter1);
 
                             //muligheter masterFagId 1
@@ -220,6 +221,7 @@ namespace oslometAPI.Data
                             matte_muligheter1.Emnekode = "M1GMT3100";
                             matte_muligheter1.Studiepoeng = 30;
                             matte_muligheter1.MasterFagId = 2;
+                            matte_muligheter1.KlasseId = 1;
                             context.Add(matte_muligheter1);
 
                             //Muligheter masterFagId 2
@@ -291,6 +293,7 @@ namespace oslometAPI.Data
                             engelsk_muligheter3.Emnekode = "M1GEN3100";
                             engelsk_muligheter3.Studiepoeng = 30;
                             engelsk_muligheter3.MasterFagId = 3;
+                            engelsk_muligheter3.KlasseId = 1;
                             context.Add(engelsk_muligheter3);
 
                             //Muligheter masterFagId 3
@@ -362,6 +365,7 @@ namespace oslometAPI.Data
                             KRLE_muligheter3.Emnekode = "M1GRL3100";
                             KRLE_muligheter3.Studiepoeng = 30;
                             KRLE_muligheter3.MasterFagId = 4;
+                            KRLE_muligheter3.KlasseId = 1;
                             context.Add(KRLE_muligheter3);
 
                             //Muligheter masterFagId 4
@@ -422,6 +426,7 @@ namespace oslometAPI.Data
                             gym_muligheter2.Emnekode = "M1GKP3100";
                             gym_muligheter2.Studiepoeng = 30;
                             gym_muligheter2.MasterFagId = 5;
+                            gym_muligheter2.KlasseId = 1;
                             context.Add(gym_muligheter2);
 
                             //Muligheter masterFagId 5
@@ -481,6 +486,7 @@ namespace oslometAPI.Data
                             KH_muligheter2.Emnekode = "MGKH3100";
                             KH_muligheter2.Studiepoeng = 30;
                             KH_muligheter2.MasterFagId = 6;
+                            KH_muligheter2.KlasseId = 1;
                             context.Add(KH_muligheter2);
 
                             //Muligheter masterFagId 6
@@ -550,6 +556,7 @@ namespace oslometAPI.Data
                             musikk_muligheter3.Emnekode = "M1GMU3100";
                             musikk_muligheter3.Studiepoeng = 30;
                             musikk_muligheter3.MasterFagId = 7;
+                            musikk_muligheter3.KlasseId = 1;
                             context.Add(musikk_muligheter3);
 
                             //Muligheter masterFagId 7
@@ -621,6 +628,7 @@ namespace oslometAPI.Data
                             naturfag_muligheter3.Emnekode = "M1GNA3100";
                             naturfag_muligheter3.Studiepoeng = 30;
                             naturfag_muligheter3.MasterFagId = 8;
+                            naturfag_muligheter3.KlasseId = 1;
                             context.Add(naturfag_muligheter3);
 
                             //Muligheter masterFagId 8
@@ -692,6 +700,7 @@ namespace oslometAPI.Data
                             samfunnsfag_muligheter3.Emnekode = "M1GSF3100";
                             samfunnsfag_muligheter3.Studiepoeng = 30;
                             samfunnsfag_muligheter3.MasterFagId = 9;
+                            samfunnsfag_muligheter3.KlasseId = 1;
                             context.Add(samfunnsfag_muligheter3);
 
                             //Muligheter masterFagId 9
@@ -741,6 +750,7 @@ namespace oslometAPI.Data
                             tegnspråk_muligheter1.Emnekode = "MGNT3100";
                             tegnspråk_muligheter1.Studiepoeng = 30;
                             tegnspråk_muligheter1.MasterFagId = 10;
+                            tegnspråk_muligheter1.KlasseId = 1;
                             context.Add(tegnspråk_muligheter1);
 
                             //Muligheter masterFagId 10
@@ -1260,6 +1270,7 @@ namespace oslometAPI.Data
                         KRLE_muligheter3_2.Emnekode = "M5GRL3100";
                         KRLE_muligheter3_2.Studiepoeng = 30;
                         KRLE_muligheter3_2.MasterFagId = 17;
+                        KRLE_muligheter3_2.KlasseId = 2;
                         context.Add(KRLE_muligheter3_2);
 
                         //Muligheter masterFagId 17
@@ -1320,6 +1331,7 @@ namespace oslometAPI.Data
                         gym_muligheter2_2.Emnekode = "M1GKP3100";
                         gym_muligheter2_2.Studiepoeng = 30;
                         gym_muligheter2_2.MasterFagId = 18;
+                        gym_muligheter2_2.KlasseId = 2;
                         context.Add(gym_muligheter2_2);
 
                         //Muligheter masterFagId 18
@@ -1380,6 +1392,7 @@ namespace oslometAPI.Data
                         KH_muligheter2_2.Emnekode = "MGKH2100";
                         KH_muligheter2_2.Studiepoeng = 30;
                         KH_muligheter2_2.MasterFagId = 19;
+                        KH_muligheter2_2.KlasseId 2;
                         context.Add(KH_muligheter2_2);
 
                         //Muligheter masterFagId 19
@@ -1450,6 +1463,7 @@ namespace oslometAPI.Data
                         musikk_muligheter3_2.Emnekode = "M5GMU3100";
                         musikk_muligheter3_2.Studiepoeng = 30;
                         musikk_muligheter3_2.MasterFagId = 20;
+                        musikk_muligheter3_2.KlasseId = 2;
                         context.Add(musikk_muligheter3_2);
 
                         //Muligheter masterFagId 20
@@ -1521,6 +1535,7 @@ namespace oslometAPI.Data
                         naturfag_muligheter3_2.Emnekode = "M5GNA3100";
                         naturfag_muligheter3_2.Studiepoeng = 30;
                         naturfag_muligheter3_2.MasterFagId = 21;
+                        naturfag_muligheter3_2.KlasseId = 2;
                         context.Add(naturfag_muligheter3_2);
 
                         //Muligheter masterFagId 21
@@ -1591,6 +1606,7 @@ namespace oslometAPI.Data
                         samfunnsfag_muligheter3_2.Emnekode = "M5GSF3100";
                         samfunnsfag_muligheter3_2.Studiepoeng = 30;
                         samfunnsfag_muligheter3_2.MasterFagId = 22;
+                        samfunnsfag_muligheter3_2.KlasseId = 2;
                         context.Add(samfunnsfag_muligheter3_2);
 
                         //Muligheter masterFagId 22
@@ -1638,8 +1654,9 @@ namespace oslometAPI.Data
                         tegnspråk_muligheter1_2.Fagnavn = "Norsk tegnspråk 1";
                         tegnspråk_muligheter1_2.Semester = 5;
                         tegnspråk_muligheter1_2.Emnekode = "MGNT3100";
-                        tegnspråk_muligheter1_2.Studiepoeng = 0;
+                        tegnspråk_muligheter1_2.Studiepoeng = 30;
                         tegnspråk_muligheter1_2.MasterFagId = 23;
+                        tegnspråk_muligheter1_2.KlasseId = 2;
                         context.Add(tegnspråk_muligheter1);
 
                         //Muligheter masterFagId 23
@@ -1648,7 +1665,7 @@ namespace oslometAPI.Data
                         tegnspråk_muligheter2_2.Fagnavn = "Norsk tegnspråk 2";
                         tegnspråk_muligheter2_2.Semester = 6;
                         tegnspråk_muligheter2_2.Emnekode = "MGNT3200";
-                        tegnspråk_muligheter2_2.Studiepoeng = 0;
+                        tegnspråk_muligheter2_2.Studiepoeng = 30;
                         tegnspråk_muligheter2_2.MasterFagId = 23;
                         tegnspråk_muligheter2_2.KlasseId = 2;
                         context.Add(tegnspråk_muligheter2_2);
@@ -1717,7 +1734,7 @@ namespace oslometAPI.Data
                     //Masterfag digital pedagogikk
                     var masterfag_digped_2 = new MasterFag();
                     masterfag_digped_2.Id = 25;
-                    masterfag_digped_2.Fagnavn = "Profesjonsrettet pedagogikk";
+                    masterfag_digped_2.Fagnavn = "Digitalt støttet pedagogikk";
                     masterfag_digped_2.KlasseId = 2;
                     context.Add(masterfag_digped_2);
 
@@ -1729,7 +1746,7 @@ namespace oslometAPI.Data
                         dig_ped1_2.Emnekode = "MGPE3200";
                         dig_ped1_2.Studiepoeng = 30;
                         dig_ped1_2.MasterFagId = 25;
-                        dig_ped1.KlasseId = 2;
+                        dig_ped1_2.KlasseId = 2;
                         context.Add(dig_ped1_2);
 
                         //Muligheter masterFagId 25
@@ -1747,7 +1764,7 @@ namespace oslometAPI.Data
                     //Masterfag Profesjonell pedagogikk
                     var masterfag_spesped_2 = new MasterFag();
                     masterfag_spesped_2.Id = 26;
-                    masterfag_spesped_2.Fagnavn = "Profesjonsrettet pedagogikk";
+                    masterfag_spesped_2.Fagnavn = "Spesialpedagogikk";
                     masterfag_spesped_2.KlasseId = 2;
                     context.Add(masterfag_spesped_2);
 
