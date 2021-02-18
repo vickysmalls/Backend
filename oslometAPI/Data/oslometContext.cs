@@ -21,7 +21,6 @@ namespace oslometAPI.Data
         public DbSet<Klasser> Klasse { get; set; }
         public DbSet<ObligFags> ObligFag { get; set; }
         public DbSet<MasterFag> MasterFag { get; set; }
-        public DbSet<FylleFags> FylleFag { get; set; }
         public DbSet<Muligheter> Mulighet { get; set; }
     }
 }
