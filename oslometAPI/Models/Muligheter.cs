@@ -16,7 +16,7 @@ namespace oslometAPI.Models
         public string Fagnavn { get; set; }
         public string Emnekode { get; set; }
         public int Semester { get; set; }
-        public double Studiepoeng { get; set; }
+        public string Studiepoeng { get; set; }
         public Klasser Klasser { get; set; }
         public MasterFag MasterFag { get; set; }
 
