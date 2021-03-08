@@ -1060,6 +1060,35 @@ namespace oslometAPI.Data
                 spes_ped3.Studiepoeng = "30";
                 context.Add(spes_ped3);
 
+                //fag 29 Mat og helse
+                var mat_helse_2 = new MasterFag();
+                mat_helse_2.Id = 29;
+                mat_helse_2.KlasseId = 1;
+                mat_helse_2.Fagnavn = "Mat og Helse";
+                context.Add(mat_helse_2);
+
+                //Muligheter masterFagId 29
+                var mathelse3 = new Muligheter();
+                mathelse3.Id = 168;
+                mathelse3.MasterFagId = 29;
+                mathelse3.KlasseId = 1;
+                mathelse3.Fagnavn = "Mat og helse 1, emne 1";
+                mathelse3.Semester = 4;
+                mathelse3.Emnekode = "MGMH2100";
+                mathelse3.Studiepoeng = "30";
+                context.Add(mathelse3);
+
+                //Muligheter masterFagId 29
+                var mathelse4 = new Muligheter();
+                mathelse4.Id = 169;
+                mathelse4.MasterFagId = 29;
+                mathelse4.KlasseId = 1;
+                mathelse4.Fagnavn = "Mat og helse 1, emne 1";
+                mathelse4.Semester = 6;
+                mathelse4.Emnekode = "MGMH2100";
+                mathelse4.Studiepoeng = "30";
+                context.Add(mathelse4);
+
 
                 /***************************************************************************************/
 
@@ -2071,6 +2100,35 @@ namespace oslometAPI.Data
                 spes_ped3_2.Emnekode = "";
                 spes_ped3_2.Studiepoeng = "30";
                 context.Add(spes_ped3_2);
+
+                //fag 28 Mat og helse
+                var mat_helse = new MasterFag();
+                mat_helse.Id = 28;
+                mat_helse.KlasseId = 2;
+                mat_helse.Fagnavn = "Mat og Helse";
+                context.Add(mat_helse);
+
+                //Muligheter masterFagId 28
+                var mathelse2 = new Muligheter();
+                mathelse2.Id = 166;
+                mathelse2.MasterFagId = 28;
+                mathelse2.KlasseId = 2;
+                mathelse2.Fagnavn = "Mat og helse 1, emne 1";
+                mathelse2.Semester = 4;
+                mathelse2.Emnekode = "MGMH2100";
+                mathelse2.Studiepoeng = "30";
+                context.Add(mathelse2);
+
+                //Muligheter masterFagId 28
+                var mathelse1 = new Muligheter();
+                mathelse1.Id = 167;
+                mathelse1.MasterFagId = 28;
+                mathelse1.KlasseId = 2;
+                mathelse1.Fagnavn = "Mat og helse 1, emne 1";
+                mathelse1.Semester = 6;
+                mathelse1.Emnekode = "MGMH2100";
+                mathelse1.Studiepoeng = "30";
+                context.Add(mathelse1);
 
                 context.SaveChanges();
             }
