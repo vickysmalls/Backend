@@ -324,7 +324,7 @@ namespace oslometAPI.Data
                     brukeropplæring4.Semester = 10;
                     brukeropplæring4.Emnekode = "M1GBO5100";
                     brukeropplæring4.Studiepoeng = "15";
-                    context.Add(brukeropplæring3);
+                    context.Add(brukeropplæring4); //sto 3 og ikke 4
 
 
                 //Masterfag 4 Engelsk
