@@ -1627,16 +1627,16 @@ namespace oslometAPI.Data
                     naturfag_muligheter1_2.Studiepoeng = "15 / 15";
                     context.Add(naturfag_muligheter1_2);
 
-                    //Muligheter masterFagId 22
-                    var naturfag_muligheter2_2 = new Muligheter();
-                    naturfag_muligheter2_2.Id = 111;
-                    naturfag_muligheter2_2.MasterFagId = 22;
-                    naturfag_muligheter2_2.KlasseId = 2;
-                    naturfag_muligheter2_2.Fagnavn = "Naturfag 1, emne 2";
-                    naturfag_muligheter2_2.Semester = 4;
-                    naturfag_muligheter2_2.Emnekode = "M5GNA2200";
-                    naturfag_muligheter2_2.Studiepoeng = "15";
-                    context.Add(naturfag_muligheter2_2);
+                    ////Muligheter masterFagId 22
+                    //var naturfag_muligheter2_2 = new Muligheter();
+                    //naturfag_muligheter2_2.Id = 111;
+                    //naturfag_muligheter2_2.MasterFagId = 22;
+                    //naturfag_muligheter2_2.KlasseId = 2;
+                    //naturfag_muligheter2_2.Fagnavn = "Naturfag 1, emne 2";
+                    //naturfag_muligheter2_2.Semester = 4;
+                    //naturfag_muligheter2_2.Emnekode = "M5GNA2200";
+                    //naturfag_muligheter2_2.Studiepoeng = "15";
+                    //context.Add(naturfag_muligheter2_2);
 
                     //Muligheter masterFagId 22
                     var naturfag_muligheter3_2 = new Muligheter();
