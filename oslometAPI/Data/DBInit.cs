@@ -1222,6 +1222,27 @@ namespace oslometAPI.Data
                     norsk_muligheter3_2.Studiepoeng = "15";
                     context.Add(norsk_muligheter3_2);
 
+                    //Muligheter masterFagId 15
+                    var norsk61 = new Muligheter();
+                    norsk61.Id = 139;
+                    norsk61.MasterFagId = 15;
+                    norsk61.KlasseId = 2;
+                    norsk61.Fagnavn = "Årstudium norsk, del 1";
+                    norsk61.Semester = 5;
+                    norsk61.Emnekode = "M5GNO1100, M5GNO1200, M5GNO3100";
+                    norsk61.Studiepoeng = "30";
+                    context.Add(norsk61);
+
+                    //Muligheter masterFagId 15
+                    var norsk62 = new Muligheter();
+                    norsk62.Id = 140;
+                    norsk62.MasterFagId = 15;
+                    norsk62.KlasseId = 2;
+                    norsk62.Fagnavn = "Årstudium norsk, del 2";
+                    norsk62.Semester = 6;
+                    norsk62.Emnekode = "M5GNO1200, M5GNO1300, M5GNO3100";
+                    norsk62.Studiepoeng = "30";
+                    context.Add(norsk62);
 
                     //muligheter masterFagId 15 MASTERSØK
                     var norsk_muligheter4_2 = new Muligheter();
@@ -1271,8 +1292,30 @@ namespace oslometAPI.Data
                     matte_muligheter3_2.Studiepoeng = "15";
                     context.Add(matte_muligheter3_2);
 
-                    //Muligheter masterFagId 16 MASTERSØK
-                    var matte_muligheter4_2 = new Muligheter();
+                    //Muligheter masterFagId 16
+                    var matte61 = new Muligheter();
+                    matte61.Id = 143;
+                    matte61.MasterFagId = 16;
+                    matte61.KlasseId = 2;
+                    matte61.Fagnavn = "Årstudium matte, del 1";
+                    matte61.Semester = 5;
+                    matte61.Emnekode = "M5GMT1100, M5GMT1200, M5GMT3100";
+                    matte61.Studiepoeng = "30";
+                    context.Add(matte61);
+
+                    //Muligheter masterFagId 16
+                    var matte62 = new Muligheter();
+                    matte62.Id = 144;
+                    matte62.MasterFagId = 16;
+                    matte62.KlasseId = 2;
+                    matte62.Fagnavn = "Årstudium matte, del 2";
+                    matte62.Semester = 6;
+                    matte62.Emnekode = "M5GMT1200, M5GMT1300";
+                    matte62.Studiepoeng = "30";
+                    context.Add(matte62);
+
+                //Muligheter masterFagId 16 MASTERSØK
+                var matte_muligheter4_2 = new Muligheter();
                     matte_muligheter4_2.Id = 81;
                     matte_muligheter4_2.MasterFagId = 16;
                     matte_muligheter4_2.Fagnavn = "Masteroppgave i matematikk";
@@ -1319,8 +1362,30 @@ namespace oslometAPI.Data
                     engelsk_muligheter3_2.Studiepoeng = "15";
                     context.Add(engelsk_muligheter3_2);
 
-                    //Muligheter masterFagId 17 MASTERSØK
-                    var engelsk_muligheter4_2 = new Muligheter();
+                    //Muligheter masterFagId 17
+                    var engelsk61 = new Muligheter();
+                    engelsk61.Id = 141;
+                    engelsk61.MasterFagId = 17;
+                    engelsk61.KlasseId = 2;
+                    engelsk61.Fagnavn = "Årstudium engelsk, del 1";
+                    engelsk61.Semester = 5;
+                    engelsk61.Emnekode = "M5GEN1100, M5GEN1200";
+                    engelsk61.Studiepoeng = "30";
+                    context.Add(engelsk61);
+
+                    //Muligheter masterFagId 17
+                    var engelsk62 = new Muligheter();
+                    engelsk62.Id = 142;
+                    engelsk62.MasterFagId = 17;
+                    engelsk62.KlasseId = 2;
+                    engelsk62.Fagnavn = "Årstudium engelsk, del 2";
+                    engelsk62.Semester = 6;
+                    engelsk62.Emnekode = "M5GEN1200, M5GEN1300, M5GEN3100";
+                    engelsk62.Studiepoeng = "30";
+                    context.Add(engelsk62);
+
+                //Muligheter masterFagId 17 MASTERSØK
+                var engelsk_muligheter4_2 = new Muligheter();
                     engelsk_muligheter4_2.Id = 85;
                     engelsk_muligheter4_2.MasterFagId = 17;
                     engelsk_muligheter4_2.Fagnavn = "Masteroppgave i engelsk";
@@ -1963,7 +2028,6 @@ namespace oslometAPI.Data
                     mathelse2.Emnekode = "MGMH2100";
                     mathelse2.Studiepoeng = "30";
                     context.Add(mathelse2);
-
 
                 context.SaveChanges();
             }
