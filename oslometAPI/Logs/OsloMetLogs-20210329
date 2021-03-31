@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 2021-03-29T10:17:52.4001760+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
 2021-03-29T10:17:52.5457240+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
 2021-03-29T10:17:52.5687070+02:00  [INF] Hosting environment: "Development" (c3307c92)
@@ -18,3 +19,13 @@
 2021-03-29T13:04:06.0292730+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
 2021-03-29T13:04:06.0496230+02:00  [INF] Hosting environment: "Development" (c3307c92)
 2021-03-29T13:04:06.0663680+02:00  [INF] Content root path: "/Users/wasab/Projects/Backend/oslometAPI" (b5d60022)
+=======
+2021-03-29T13:01:50.3420190+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2021-03-29T13:01:50.3595670+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-29T13:01:50.3626160+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-29T13:01:50.3657640+02:00  [INF] Content root path: "/Users/vikke/Projects/Backend/oslometAPI" (b5d60022)
+>>>>>>> Stashed changes
+2021-03-29T13:10:33.3286710+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2021-03-29T13:10:33.3534440+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-29T13:10:33.3568020+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-29T13:10:33.3595050+02:00  [INF] Content root path: "/Users/vikke/Projects/Backend/oslometAPI" (b5d60022)
