@@ -278,32 +278,28 @@ namespace oslometAPI.Data
                 brukeropplæring.Fagnavn = "Begynneropplæring";
                 context.Add(brukeropplæring);
 
-                //Muligheter masterFagId 3
-                var opplæring_fyll = new Muligheter();
-                opplæring_fyll.Id = 11;
-                opplæring_fyll.MasterFagId = 3;
-                opplæring_fyll.Fagnavn = "Matematikk 2, emne 4";
-                opplæring_fyll.Semester = 5;
-                opplæring_fyll.Emnekode = "M1GMT3100";
+                    //Muligheter masterFagId 3
+                    var opplæring_fyll = new Muligheter();
+                    opplæring_fyll.Id = 11;
+                    opplæring_fyll.MasterFagId = 3;
+                    opplæring_fyll.Fagnavn = "Matematikk 2, emne 4";
+                    opplæring_fyll.Semester = 5;
+                    opplæring_fyll.Emnekode = "M1GMT3100";
+                    opplæring_fyll.Studiepoeng = "30";
+                    context.Add(opplæring_fyll);
 
-                opplæring_fyll.Studiepoeng = "30";
+                    //Muligheter masterFagId 3
+                    var opplæring_fyll2 = new Muligheter();
+                    opplæring_fyll2.Id = 200;
+                    opplæring_fyll2.MasterFagId = 3;
+                    opplæring_fyll2.Fagnavn = "Norsk 2, emne 4";
+                    opplæring_fyll2.Semester = 5;
+                    opplæring_fyll2.Emnekode = "M1GNO3100";
+                    opplæring_fyll2.Studiepoeng = "30";
+                    context.Add(opplæring_fyll2);
 
-                context.Add(opplæring_fyll);
-
-                //Muligheter masterFagId 3
-                var opplæring_fyll2 = new Muligheter();
-                opplæring_fyll2.Id = 200;
-                opplæring_fyll2.MasterFagId = 3;
-                opplæring_fyll2.Fagnavn = "Norsk 2, emne 4";
-                opplæring_fyll2.Semester = 5;
-                opplæring_fyll2.Emnekode = "M1GNO3100";
-
-                opplæring_fyll2.Studiepoeng = "30";
-
-                context.Add(opplæring_fyll2);
-
-                //Muligheter masterFagId 3
-                var brukeropplæring1 = new Muligheter();
+                    //Muligheter masterFagId 3
+                    var brukeropplæring1 = new Muligheter();
                     brukeropplæring1.Id = 12;
                     brukeropplæring1.MasterFagId = 3;
                     brukeropplæring1.Fagnavn = "Begynneropplæring 1";
