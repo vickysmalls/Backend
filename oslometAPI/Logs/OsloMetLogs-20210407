@@ -1,0 +1,4 @@
+2021-04-07T10:52:31.2639740+02:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2021-04-07T10:52:31.2853300+02:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-04-07T10:52:31.2882490+02:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-04-07T10:52:31.2911820+02:00  [INF] Content root path: "/Users/vikke/Projects/Backend/oslometAPI" (b5d60022)
