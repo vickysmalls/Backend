@@ -41,6 +41,7 @@ namespace oslometAPI.Data
                 oblig_matte1.Semester = 1;
                 oblig_matte1.Emnekode = "M1GMT1100";
                 oblig_matte1.Studiepoeng = "10";
+                oblig_matte1.URL = "https://student.oslomet.no/en/studier/-/studieinfo/emne/M1GMT1100/2021/H%C3%98ST";
                 context.Add(oblig_matte1);
 
                 var oblig_matte2 = new ObligFags();
@@ -50,6 +51,7 @@ namespace oslometAPI.Data
                 oblig_matte2.Semester = 2;
                 oblig_matte2.Emnekode = "M1GMT1200";
                 oblig_matte2.Studiepoeng = "10";
+                oblig_matte2.URL = "https://student.oslomet.no/en/studier/-/studieinfo/emne/M1GMT1200/2021/H%C3%98ST";
                 context.Add(oblig_matte2);
 
                 var oblig_matte3 = new ObligFags();
@@ -59,6 +61,7 @@ namespace oslometAPI.Data
                 oblig_matte3.Semester = 3;
                 oblig_matte3.Emnekode = "M1GMT2100";
                 oblig_matte3.Studiepoeng = "10";
+                oblig_matte3.URL = "https://student.oslomet.no/en/studier/-/studieinfo/emne/M1GMT2100/2021/H%C3%98ST";
                 context.Add(oblig_matte3);
 
 
@@ -70,6 +73,7 @@ namespace oslometAPI.Data
                 oblig_norsk1.Semester = 1;
                 oblig_norsk1.Emnekode = "M1GNO1100";
                 oblig_norsk1.Studiepoeng = "10";
+                oblig_norsk1.URL = "https://student.oslomet.no/en/studier/-/studieinfo/emne/M1GNO1100/2021/H%C3%98ST";
                 context.Add(oblig_norsk1);
 
                 var oblig_norsk2 = new ObligFags();
@@ -79,6 +83,7 @@ namespace oslometAPI.Data
                 oblig_norsk2.Semester = 2;
                 oblig_norsk2.Emnekode = "M1GNO1200";
                 oblig_norsk2.Studiepoeng = "10";
+                oblig_norsk2.URL = "https://student.oslomet.no/en/studier/-/studieinfo/emne/M1GNO1200/2021/H%C3%98ST";
                 context.Add(oblig_norsk2);
 
                 var oblig_norsk3 = new ObligFags();
@@ -88,6 +93,7 @@ namespace oslometAPI.Data
                 oblig_norsk3.Semester = 3;
                 oblig_norsk3.Emnekode = "M1GNO2100";
                 oblig_norsk3.Studiepoeng = "10";
+                oblig_norsk3.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GNO2100/2021/H%C3%98ST";
                 context.Add(oblig_norsk3);
 
 
@@ -100,6 +106,7 @@ namespace oslometAPI.Data
                 oblig_pel.Semester = 1;
                 oblig_pel.Emnekode = "M1GPE1100";
                 oblig_pel.Studiepoeng = "10";
+                oblig_pel.URL = "https://student.oslomet.no/en/studier/-/studieinfo/emne/M1GPE1100/2021/H%C3%98ST";
                 context.Add(oblig_pel);
 
                 //PEL2
@@ -110,6 +117,7 @@ namespace oslometAPI.Data
                 oblig_pel2.Semester = 2;
                 oblig_pel2.Emnekode = "M1GPE1200";
                 oblig_pel2.Studiepoeng = "10";
+                oblig_pel2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GPE1200/2021/H%C3%98ST";
                 context.Add(oblig_pel2);
 
                 //PEL3
@@ -120,6 +128,7 @@ namespace oslometAPI.Data
                 oblig_pel3.Semester = 3;
                 oblig_pel3.Emnekode = "M1GPE1200";
                 oblig_pel3.Studiepoeng = "10";
+                oblig_pel3.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GPE2100/2021/H%C3%98ST";
                 context.Add(oblig_pel3);
 
                 //PEL4
@@ -130,6 +139,7 @@ namespace oslometAPI.Data
                 oblig_pel4.Semester = 8;
                 oblig_pel4.Emnekode = "M1GPE4100";
                 oblig_pel4.Studiepoeng = "15";
+                oblig_pel4.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GPE4100/2021/H%C3%98ST";
                 context.Add(oblig_pel4);
 
                 //PEL5
@@ -140,6 +150,7 @@ namespace oslometAPI.Data
                 oblig_pel5.Semester = 9;
                 oblig_pel5.Emnekode = "M1GPE5100";
                 oblig_pel5.Studiepoeng = "15";
+                oblig_pel5.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GPE5100/2021/H%C3%98ST";
                 context.Add(oblig_pel5);
 
                 //V&M
@@ -150,6 +161,7 @@ namespace oslometAPI.Data
                 oblig_VM.Semester = 7;
                 oblig_VM.Emnekode = "MGVM4100";
                 oblig_VM.Studiepoeng = "15";
+                oblig_VM.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGVM4100/2021/H%C3%98ST";
                 context.Add(oblig_VM);
 
 
@@ -169,6 +181,7 @@ namespace oslometAPI.Data
                     norsk_muligheter1.Semester = 5;
                     norsk_muligheter1.Emnekode = "M1GNO3100";
                     norsk_muligheter1.Studiepoeng = "30";
+                    norsk_muligheter1.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GNO3100/2021/H%C3%98ST";
                     context.Add(norsk_muligheter1);
 
                     //muligheter masterFagId 1
@@ -179,6 +192,7 @@ namespace oslometAPI.Data
                     norsk_muligheter2.Semester = 7;
                     norsk_muligheter2.Emnekode = "MGNO4100";
                     norsk_muligheter2.Studiepoeng = "15";
+                    norsk_muligheter2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGNO4100/2021/H%C3%98ST";
                     context.Add(norsk_muligheter2);
 
                     //muligheter masterFagId 1
@@ -189,6 +203,7 @@ namespace oslometAPI.Data
                     norsk_muligheter3.Semester = 8;
                     norsk_muligheter3.Emnekode = "MGNO4200";
                     norsk_muligheter3.Studiepoeng = "15";
+                    norsk_muligheter3.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGNO4200/2021/H%C3%98ST";
                     context.Add(norsk_muligheter3);
 
                     //muligheter masterFagId 1
@@ -199,6 +214,7 @@ namespace oslometAPI.Data
                     norsk_muligheter4.Semester = 9;
                     norsk_muligheter4.Emnekode = "MGNO5100";
                     norsk_muligheter4.Studiepoeng = "15";
+                    norsk_muligheter4.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGNO5100/2021/H%C3%98ST";
                     context.Add(norsk_muligheter4);
 
                     //muligheter masterFagId 1 MASTERSØK
@@ -228,6 +244,7 @@ namespace oslometAPI.Data
                     matte_muligheter1.Semester = 5;
                     matte_muligheter1.Emnekode = "M1GMT3100";
                     matte_muligheter1.Studiepoeng = "30";
+                    matte_muligheter1.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GMT3100/2021/H%C3%98ST";
                     context.Add(matte_muligheter1);
 
                     //Muligheter masterFagId 2
@@ -238,6 +255,7 @@ namespace oslometAPI.Data
                     matte_muligheter2.Semester = 7;
                     matte_muligheter2.Emnekode = "MGMT4100";
                     matte_muligheter2.Studiepoeng = "15";
+                    matte_muligheter2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGMT4100/2021/H%C3%98ST";
                     context.Add(matte_muligheter2);
 
                     //Muligheter masterFagId 2
@@ -248,6 +266,7 @@ namespace oslometAPI.Data
                     matte_muligheter3.Semester = 8;
                     matte_muligheter3.Emnekode = "MGMT4200";
                     matte_muligheter3.Studiepoeng = "15";
+                    matte_muligheter3.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGMT4200/2021/H%C3%98ST";
                     context.Add(matte_muligheter3);
 
                     //Muligheter masterFagId 2
@@ -258,6 +277,7 @@ namespace oslometAPI.Data
                     matte_muligheter4.Semester = 9;
                     matte_muligheter4.Emnekode = "MGMT5100";
                     matte_muligheter4.Studiepoeng = "15";
+                    matte_muligheter4.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGMT5100/2021/H%C3%98ST";
                     context.Add(matte_muligheter4);
 
                     //Muligheter masterFagId 2 MASTERSØK
@@ -282,25 +302,10 @@ namespace oslometAPI.Data
                     var opplæring_fyll = new Muligheter();
                     opplæring_fyll.Id = 11;
                     opplæring_fyll.MasterFagId = 3;
-                    opplæring_fyll.Fagnavn = "Matematikk 2, emne 4";
+                    opplæring_fyll.Fagnavn = "30Sp fra matematikk eller norsk";
+                    opplæring_fyll.Emnekode = "M1GNO3100 eller M1GMT3100";
                     opplæring_fyll.Semester = 5;
-                opplæring_fyll.Emnekode = "M1GMT3100";
-
-                opplæring_fyll.Studiepoeng = "30";
-
-                context.Add(opplæring_fyll);
-
-                    //Muligheter masterFagId 3
-                    var opplæring_fyll2 = new Muligheter();
-                opplæring_fyll2.Id = 200;
-                opplæring_fyll2.MasterFagId = 3;
-                opplæring_fyll2.Fagnavn = "Norsk 2, emne 4";
-                opplæring_fyll2.Semester = 5;
-                opplæring_fyll2.Emnekode = "M1GNO3100";
-
-                opplæring_fyll2.Studiepoeng = "30";
-
-                    context.Add(opplæring_fyll2);
+                    context.Add(opplæring_fyll);
 
                     //Muligheter masterFagId 3
                     var brukeropplæring1 = new Muligheter();
@@ -310,6 +315,7 @@ namespace oslometAPI.Data
                     brukeropplæring1.Semester = 7;
                     brukeropplæring1.Emnekode = "M1GBO4100";
                     brukeropplæring1.Studiepoeng = "15";
+                    brukeropplæring1.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GBO4100/2021/H%C3%98ST";
                     context.Add(brukeropplæring1);
 
                     //Muligheter masterFagId 3
@@ -320,6 +326,7 @@ namespace oslometAPI.Data
                     brukeropplæring2.Semester = 8;
                     brukeropplæring2.Emnekode = "M1GBO4200";
                     brukeropplæring2.Studiepoeng = "15";
+                    brukeropplæring2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GBO4200/2021/H%C3%98ST";
                     context.Add(brukeropplæring2);
 
                     //Muligheter masterFagId 3
@@ -330,6 +337,7 @@ namespace oslometAPI.Data
                     brukeropplæring3.Semester = 9;
                     brukeropplæring3.Emnekode = "M1GBO5100";
                     brukeropplæring3.Studiepoeng = "15";
+                    brukeropplæring3.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GBO5100/2021/H%C3%98ST";
                     context.Add(brukeropplæring3);
 
                     //Muligheter masterFagId 3
@@ -338,9 +346,9 @@ namespace oslometAPI.Data
                     brukeropplæring4.MasterFagId = 3;
                     brukeropplæring4.Fagnavn = "Masteroppgave i begynneropplæring";
                     brukeropplæring4.Semester = 10;
-                    brukeropplæring4.Emnekode = "M1GBO5100";
-                    brukeropplæring4.Studiepoeng = "15";
-                    context.Add(brukeropplæring4); //sto 3 og ikke 4
+                    brukeropplæring4.Emnekode = "";
+                    brukeropplæring4.Studiepoeng = "30";
+                    context.Add(brukeropplæring4); 
 
 
                 //Masterfag 4 Engelsk
@@ -359,6 +367,8 @@ namespace oslometAPI.Data
                     engelsk_muligheter1.Semester = 4;
                     engelsk_muligheter1.Emnekode = "M1GEN2100, M1GEN2200";
                     engelsk_muligheter1.Studiepoeng = "15 / 15";
+                    engelsk_muligheter1.URL = "https://student.oslomet.no/en/studier/-/studieinfo/emne/M1GEN2100/2021/H%C3%98ST";
+                    engelsk_muligheter1.URL2 = "https://student.oslomet.no/en/studier/-/studieinfo/emne/M1GEN2200/2021/H%C3%98ST";
                     context.Add(engelsk_muligheter1);
 
                     //Muligheter masterFagId 4
@@ -370,6 +380,7 @@ namespace oslometAPI.Data
                     engelsk_muligheter3.Semester = 5;
                     engelsk_muligheter3.Emnekode = "M1GEN2200, M1GEN3100";
                     engelsk_muligheter3.Studiepoeng = "30";
+                    engelsk_muligheter3.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GEN3100/2021/H%C3%98ST";
                     context.Add(engelsk_muligheter3);
 
                     //Muligheter masterFagId 4
@@ -380,6 +391,7 @@ namespace oslometAPI.Data
                     engelsk_muligheter4.Semester = 7;
                     engelsk_muligheter4.Emnekode = "MGEN4100";
                     engelsk_muligheter4.Studiepoeng = "15";
+                    engelsk_muligheter4.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGEN4100/2021/H%C3%98ST";
                     context.Add(engelsk_muligheter4);
 
                     //Muligheter masterFagId 4
@@ -390,6 +402,7 @@ namespace oslometAPI.Data
                     engelsk_muligheter5.Semester = 8;
                     engelsk_muligheter5.Emnekode = "MGEN4200";
                     engelsk_muligheter5.Studiepoeng = "15";
+                    engelsk_muligheter5.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGEN4200/2021/H%C3%98ST";
                     context.Add(engelsk_muligheter5);
 
                     //Muligheter masterFagId 4
@@ -400,6 +413,7 @@ namespace oslometAPI.Data
                     engelsk_muligheter6.Semester = 9;
                     engelsk_muligheter6.Emnekode = "MGEN5100";
                     engelsk_muligheter6.Studiepoeng = "15";
+                    engelsk_muligheter6.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGEN5100/2021/H%C3%98ST";
                     context.Add(engelsk_muligheter6);
 
                     //Muligheter masterFagId 4 MASTERSØK
@@ -413,74 +427,80 @@ namespace oslometAPI.Data
                     context.Add(engelsk_muligheter7);
 
 
-                //Masterfag 5 KRLE
-                var masterfag_KRLE = new MasterFag();
-                masterfag_KRLE.Id = 5;
-                masterfag_KRLE.Fagnavn = "RLE";
-                masterfag_KRLE.KlasseId = 1;
-                context.Add(masterfag_KRLE);
+                //Masterfag 5 RLE
+                var masterfag_RLE = new MasterFag();
+                masterfag_RLE.Id = 5;
+                masterfag_RLE.Fagnavn = "RLE";
+                masterfag_RLE.KlasseId = 1;
+                context.Add(masterfag_RLE);
 
                     //Muligheter masterFagId 5
-                    var KRLE_muligheter1 = new Muligheter();
-                    KRLE_muligheter1.Id = 22;
-                    KRLE_muligheter1.MasterFagId = 5;
-                    KRLE_muligheter1.KlasseId = 1;
-                    KRLE_muligheter1.Fagnavn = "RLE 1, emne 1 og 2";
-                    KRLE_muligheter1.Semester = 4;
-                    KRLE_muligheter1.Emnekode = "M1GRL2100, M1GRL2200";
-                    KRLE_muligheter1.Studiepoeng = "15 / 15";
-                    context.Add(KRLE_muligheter1);
+                    var RLE_muligheter1 = new Muligheter();
+                    RLE_muligheter1.Id = 22;
+                    RLE_muligheter1.MasterFagId = 5;
+                    RLE_muligheter1.KlasseId = 1;
+                    RLE_muligheter1.Fagnavn = "RLE 1, emne 1 og 2";
+                    RLE_muligheter1.Semester = 4;
+                    RLE_muligheter1.Emnekode = "M1GRL2100, M1GRL2200";
+                    RLE_muligheter1.Studiepoeng = "15 / 15";
+                    RLE_muligheter1.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GRL2100/2021/H%C3%98ST";
+                    RLE_muligheter1.URL2 = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GRL2200/2021/H%C3%98ST";
+                    context.Add(RLE_muligheter1);
 
                     //Muligheter masterFagId 5
-                    var KRLE_muligheter3 = new Muligheter();
-                    KRLE_muligheter3.Id = 23;
-                    KRLE_muligheter3.MasterFagId = 5;
-                    KRLE_muligheter3.KlasseId = 1;
-                    KRLE_muligheter3.Fagnavn = "RLE 2, emne 3";
-                    KRLE_muligheter3.Semester = 5;
-                    KRLE_muligheter3.Emnekode = "M1GRL3100";
-                    KRLE_muligheter3.Studiepoeng = "30";
-                    context.Add(KRLE_muligheter3);
+                    var RLE_muligheter3 = new Muligheter();
+                    RLE_muligheter3.Id = 23;
+                    RLE_muligheter3.MasterFagId = 5;
+                    RLE_muligheter3.KlasseId = 1;
+                    RLE_muligheter3.Fagnavn = "RLE 2, emne 3";
+                    RLE_muligheter3.Semester = 5;
+                    RLE_muligheter3.Emnekode = "M1GRL3100";
+                    RLE_muligheter3.Studiepoeng = "30";
+                    RLE_muligheter3.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GRL3100/2021/H%C3%98ST";
+                    context.Add(RLE_muligheter3);
 
                     //Muligheter masterFagId 5
-                    var KRLE_muligheter4 = new Muligheter();
-                    KRLE_muligheter4.Id = 24;
-                    KRLE_muligheter4.MasterFagId = 5;
-                    KRLE_muligheter4.Fagnavn = "RLE og RLE-didaktikk 1";
-                    KRLE_muligheter4.Semester = 7;
-                    KRLE_muligheter4.Emnekode = "MGRL4100";
-                    KRLE_muligheter4.Studiepoeng = "15";
-                    context.Add(KRLE_muligheter4);
+                    var RLE_muligheter4 = new Muligheter();
+                    RLE_muligheter4.Id = 24;
+                    RLE_muligheter4.MasterFagId = 5;
+                    RLE_muligheter4.Fagnavn = "RLE og RLE-didaktikk 1";
+                    RLE_muligheter4.Semester = 7;
+                    RLE_muligheter4.Emnekode = "MGRL4100";
+                    RLE_muligheter4.Studiepoeng = "15";
+                    RLE_muligheter4.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGRL4100/2021/H%C3%98ST";
+                    context.Add(RLE_muligheter4);
 
                     //Muligheter masterFagId 5
-                    var KRLE_muligheter5 = new Muligheter();
-                    KRLE_muligheter5.Id = 25;
-                    KRLE_muligheter5.MasterFagId = 5;
-                    KRLE_muligheter5.Fagnavn = "RLE og RLE-didaktikk 2";
-                    KRLE_muligheter5.Semester = 8;
-                    KRLE_muligheter5.Emnekode = "MGRL4200";
-                    KRLE_muligheter5.Studiepoeng = "15";
-                    context.Add(KRLE_muligheter5);
+                    var RLE_muligheter5 = new Muligheter();
+                    RLE_muligheter5.Id = 25;
+                    RLE_muligheter5.MasterFagId = 5;
+                    RLE_muligheter5.Fagnavn = "RLE og RLE-didaktikk 2";
+                    RLE_muligheter5.Semester = 8;
+                    RLE_muligheter5.Emnekode = "MGRL4200";
+                    RLE_muligheter5.Studiepoeng = "15";
+                    RLE_muligheter5.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGRL4200/2021/H%C3%98ST";
+                    context.Add(RLE_muligheter5);
 
                     //Muligheter masterFagId 5
-                    var KRLE_muligheter6 = new Muligheter();
-                    KRLE_muligheter6.Id = 26;
-                    KRLE_muligheter6.MasterFagId = 5;
-                    KRLE_muligheter6.Fagnavn = "RLE og RLE-didaktikk 3";
-                    KRLE_muligheter6.Semester = 9;
-                    KRLE_muligheter6.Emnekode = "MGRL5100";
-                    KRLE_muligheter6.Studiepoeng = "15";
-                    context.Add(KRLE_muligheter6);
+                    var RLE_muligheter6 = new Muligheter();
+                    RLE_muligheter6.Id = 26;
+                    RLE_muligheter6.MasterFagId = 5;
+                    RLE_muligheter6.Fagnavn = "RLE og RLE-didaktikk 3";
+                    RLE_muligheter6.Semester = 9;
+                    RLE_muligheter6.Emnekode = "MGRL5100";
+                    RLE_muligheter6.Studiepoeng = "15";
+                    RLE_muligheter6.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGRL5100/2021/H%C3%98ST";
+                    context.Add(RLE_muligheter6);
 
                     //Muligheter masterFagId 5 MASTERSØK
-                    var KRLE_muligheter7 = new Muligheter();
-                    KRLE_muligheter7.Id = 27;
-                    KRLE_muligheter7.MasterFagId = 5;
-                    KRLE_muligheter7.Fagnavn = "Masteroppgave i RLE";
-                    KRLE_muligheter7.Semester = 10;
-                    KRLE_muligheter7.Emnekode = "";
-                    KRLE_muligheter7.Studiepoeng = "30";
-                    context.Add(KRLE_muligheter7);
+                    var RLE_muligheter7 = new Muligheter();
+                    RLE_muligheter7.Id = 27;
+                    RLE_muligheter7.MasterFagId = 5;
+                    RLE_muligheter7.Fagnavn = "Masteroppgave i RLE";
+                    RLE_muligheter7.Semester = 10;
+                    RLE_muligheter7.Emnekode = "";
+                    RLE_muligheter7.Studiepoeng = "30";
+                    context.Add(RLE_muligheter7);
 
 
                 //Masterfag 6 kroppsøving
@@ -499,6 +519,7 @@ namespace oslometAPI.Data
                     gym_muligheter1.Semester = 4;
                     gym_muligheter1.Emnekode = "M1GKP2100";
                     gym_muligheter1.Studiepoeng = "30";
+                    gym_muligheter1.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GKP2100/2021/H%C3%98ST";
                     context.Add(gym_muligheter1);
 
                     //Muligheter masterFagId 6
@@ -510,6 +531,7 @@ namespace oslometAPI.Data
                     gym_muligheter2.Semester = 5;
                     gym_muligheter2.Emnekode = "M1GKP3100";
                     gym_muligheter2.Studiepoeng = "30";
+                    gym_muligheter2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GKP3100/2021/H%C3%98ST";
                     context.Add(gym_muligheter2);
 
                     //Muligheter masterFagId 6
@@ -520,6 +542,7 @@ namespace oslometAPI.Data
                     gym_muligheter3.Semester = 7;
                     gym_muligheter3.Emnekode = "MGKP4100";
                     gym_muligheter3.Studiepoeng = "15";
+                    gym_muligheter3.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGKP4100/2021/H%C3%98ST";
                     context.Add(gym_muligheter3);
 
                     //Muligheter masterFagId 6
@@ -530,6 +553,7 @@ namespace oslometAPI.Data
                     gym_muligheter4.Semester = 8;
                     gym_muligheter4.Emnekode = "MGKP4200";
                     gym_muligheter4.Studiepoeng = "15";
+                    gym_muligheter4.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGKP4200/2021/H%C3%98ST";
                     context.Add(gym_muligheter4);
 
                     //Muligheter masterFagId 6
@@ -540,6 +564,7 @@ namespace oslometAPI.Data
                     gym_muligheter5.Semester = 9;
                     gym_muligheter5.Emnekode = "MGKP5100";
                     gym_muligheter5.Studiepoeng = "15";
+                    gym_muligheter5.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGKP5100/2021/H%C3%98ST";
                     context.Add(gym_muligheter5);
 
                     //Muligheter masterFagId 6 MASTERSØK
@@ -569,6 +594,7 @@ namespace oslometAPI.Data
                     KH_muligheter1.Semester = 4;
                     KH_muligheter1.Emnekode = "MGKH2100";
                     KH_muligheter1.Studiepoeng = "30";
+                    KH_muligheter1.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGKH2100/2021/H%C3%98ST";
                     context.Add(KH_muligheter1);
 
                     //Muligheter masterFagId 7
@@ -580,6 +606,7 @@ namespace oslometAPI.Data
                     KH_muligheter2.Semester = 5;
                     KH_muligheter2.Emnekode = "MGKH3100";
                     KH_muligheter2.Studiepoeng = "30";
+                    KH_muligheter2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGKH3100/2021/H%C3%98ST";
                     context.Add(KH_muligheter2);
 
                     //Muligheter masterFagId 7
@@ -590,6 +617,7 @@ namespace oslometAPI.Data
                     KH_muligheter3.Semester = 7;
                     KH_muligheter3.Emnekode = "MFAGL4000";
                     KH_muligheter3.Studiepoeng = "15";
+                    KH_muligheter3.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MFAGL4000/2021/H%C3%98ST";
                     context.Add(KH_muligheter3);
 
                     //Muligheter masterFagId 7
@@ -600,6 +628,7 @@ namespace oslometAPI.Data
                     KH_muligheter4.Semester = 8;
                     KH_muligheter4.Emnekode = "MFAGL4200";
                     KH_muligheter4.Studiepoeng = "15";
+                    KH_muligheter4.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MFAGL4200/2021/H%C3%98ST";
                     context.Add(KH_muligheter4);
 
                     //Muligheter masterFagId 7
@@ -610,6 +639,7 @@ namespace oslometAPI.Data
                     KH_muligheter5.Semester = 9;
                     KH_muligheter5.Emnekode = "MFAGL5000";
                     KH_muligheter5.Studiepoeng = "15";
+                    KH_muligheter5.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MFAGL5000/2021/H%C3%98ST";
                     context.Add(KH_muligheter5);
 
                     //Muligheter masterFagId 7 MASTERSØK
@@ -639,6 +669,8 @@ namespace oslometAPI.Data
                     musikk_muligheter1.Semester = 4;
                     musikk_muligheter1.Emnekode = "M1GMU2100, M1GMU2200";
                     musikk_muligheter1.Studiepoeng = "15 / 15";
+                    musikk_muligheter1.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GMU2100/2021/H%C3%98ST";
+                    musikk_muligheter1.URL2 = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GMU2200/2021/H%C3%98ST";
                     context.Add(musikk_muligheter1);
 
                     //Muligheter masterFagId 8
@@ -650,6 +682,7 @@ namespace oslometAPI.Data
                     musikk_muligheter3.Semester = 5;
                     musikk_muligheter3.Emnekode = "M1GMU3100";
                     musikk_muligheter3.Studiepoeng = "30";
+                    musikk_muligheter3.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GMU3100/2021/H%C3%98ST";
                     context.Add(musikk_muligheter3);
 
                     //Muligheter masterFagId 8
@@ -660,6 +693,7 @@ namespace oslometAPI.Data
                     musikk_muligheter4.Semester = 7;
                     musikk_muligheter4.Emnekode = "MGMU4100";
                     musikk_muligheter4.Studiepoeng = "15";
+                    musikk_muligheter4.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGMU4100/2021/H%C3%98ST";
                     context.Add(musikk_muligheter4);
 
                     //Muligheter masterFagId 8
@@ -670,6 +704,7 @@ namespace oslometAPI.Data
                     musikk_muligheter5.Semester = 8;
                     musikk_muligheter5.Emnekode = "MGMU4200";
                     musikk_muligheter5.Studiepoeng = "15";
+                    musikk_muligheter5.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGMU4200/2021/H%C3%98ST";
                     context.Add(musikk_muligheter5);
 
                     //Muligheter masterFagId 8
@@ -680,6 +715,7 @@ namespace oslometAPI.Data
                     musikk_muligheter6.Semester = 9;
                     musikk_muligheter6.Emnekode = "MGMU5100";
                     musikk_muligheter6.Studiepoeng = "15";
+                    musikk_muligheter6.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGMU5100/2021/H%C3%98ST";
                     context.Add(musikk_muligheter6);
 
                     //Muligheter masterFagId 8 MASTERSØK
@@ -709,6 +745,8 @@ namespace oslometAPI.Data
                     naturfag_muligheter1.Semester = 4;
                     naturfag_muligheter1.Emnekode = "M1GNA2100, M1GNA2200";
                     naturfag_muligheter1.Studiepoeng = "15 / 15";
+                    naturfag_muligheter1.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GNA2100/2021/H%C3%98ST";
+                    naturfag_muligheter1.URL2 = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GNA2200/2021/H%C3%98ST";
                     context.Add(naturfag_muligheter1);
 
                     //Muligheter masterFagId 9
@@ -720,6 +758,7 @@ namespace oslometAPI.Data
                     naturfag_muligheter3.Semester = 5;
                     naturfag_muligheter3.Emnekode = "M1GNA3100";
                     naturfag_muligheter3.Studiepoeng = "30";
+                    naturfag_muligheter3.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GNA3100/2021/H%C3%98ST";
                     context.Add(naturfag_muligheter3);
 
                     //Muligheter masterFagId 9
@@ -730,6 +769,7 @@ namespace oslometAPI.Data
                     naturfag_muligheter4.Semester = 7;
                     naturfag_muligheter4.Emnekode = "MGNA4100";
                     naturfag_muligheter4.Studiepoeng = "15";
+                    naturfag_muligheter4.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGNA4100/2021/H%C3%98ST";
                     context.Add(naturfag_muligheter4);
 
                     //Muligheter masterFagId 9
@@ -740,6 +780,7 @@ namespace oslometAPI.Data
                     naturfag_muligheter5.Semester = 8;
                     naturfag_muligheter5.Emnekode = "MGNA4200";
                     naturfag_muligheter5.Studiepoeng = "15";
+                    naturfag_muligheter5.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGNA4200/2021/H%C3%98ST";
                     context.Add(naturfag_muligheter5);
 
                     //Muligheter masterFagId 9
@@ -750,6 +791,7 @@ namespace oslometAPI.Data
                     naturfag_muligheter6.Semester = 9;
                     naturfag_muligheter6.Emnekode = "MGNA5100";
                     naturfag_muligheter6.Studiepoeng = "15";
+                    naturfag_muligheter6.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGNA5100/2021/H%C3%98ST";
                     context.Add(naturfag_muligheter6);
 
                     //Muligheter masterFagId 9 MASTERSØK
@@ -779,6 +821,8 @@ namespace oslometAPI.Data
                     samfunnsfag_muligheter1.Semester = 4;
                     samfunnsfag_muligheter1.Emnekode = "M1GSF2100, M1GSF2200";
                     samfunnsfag_muligheter1.Studiepoeng = "15 / 15";
+                    samfunnsfag_muligheter1.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GSF2100/2021/H%C3%98ST";
+                    samfunnsfag_muligheter1.URL2 = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GSF2200/2021/H%C3%98ST";
                     context.Add(samfunnsfag_muligheter1);
 
                     //Muligheter masterFagId 10
@@ -790,6 +834,7 @@ namespace oslometAPI.Data
                     samfunnsfag_muligheter3.Semester = 5;
                     samfunnsfag_muligheter3.Emnekode = "M1GSF3100";
                     samfunnsfag_muligheter3.Studiepoeng = "30";
+                    samfunnsfag_muligheter3.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M1GSF3100/2021/H%C3%98ST";
                     context.Add(samfunnsfag_muligheter3);
 
                     //Muligheter masterFagId 10
@@ -800,6 +845,7 @@ namespace oslometAPI.Data
                     samfunnsfag_muligheter4.Semester = 7;
                     samfunnsfag_muligheter4.Emnekode = "MGSF4100";
                     samfunnsfag_muligheter4.Studiepoeng = "15";
+                    samfunnsfag_muligheter4.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGSF4100/2021/H%C3%98ST";
                     context.Add(samfunnsfag_muligheter4);
 
                     //Muligheter masterFagId 10
@@ -810,6 +856,7 @@ namespace oslometAPI.Data
                     samfunnsfag_muligheter5.Semester = 8;
                     samfunnsfag_muligheter5.Emnekode = "MGSF4200";
                     samfunnsfag_muligheter5.Studiepoeng = "15";
+                    samfunnsfag_muligheter5.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGSF4200/2021/H%C3%98ST";
                     context.Add(samfunnsfag_muligheter5);
 
                     //Muligheter masterFagId 10
@@ -820,6 +867,7 @@ namespace oslometAPI.Data
                     samfunnsfag_muligheter6.Semester = 9;
                     samfunnsfag_muligheter6.Emnekode = "MGSF5100";
                     samfunnsfag_muligheter6.Studiepoeng = "15";
+                    samfunnsfag_muligheter6.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGSF5100/2021/H%C3%98ST";
                     context.Add(samfunnsfag_muligheter6);
 
                     //Muligheter masterFagId 10 MASTERSØK
@@ -849,6 +897,7 @@ namespace oslometAPI.Data
                     tegnspråk_muligheter1.Semester = 5;
                     tegnspråk_muligheter1.Emnekode = "MGNT3100";
                     tegnspråk_muligheter1.Studiepoeng = "30";
+                    tegnspråk_muligheter1.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGNT3100/2021/H%C3%98ST";
                     context.Add(tegnspråk_muligheter1);
 
                     //Muligheter masterFagId 11
@@ -860,36 +909,40 @@ namespace oslometAPI.Data
                     tegnspråk_muligheter2.Semester = 6;
                     tegnspråk_muligheter2.Emnekode = "MGNT3200";
                     tegnspråk_muligheter2.Studiepoeng = "30";
+                    tegnspråk_muligheter2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGNT3200/2021/H%C3%98ST";
                     context.Add(tegnspråk_muligheter2);
 
                     //Muligheter masterFagId 11
                     var tegnspråk_muligheter3 = new Muligheter();
                     tegnspråk_muligheter3.Id = 60;
                     tegnspråk_muligheter3.MasterFagId = 11;
-                    tegnspråk_muligheter3.Fagnavn = "";
+                    tegnspråk_muligheter3.Fagnavn = "Norsk tegnspråk og tegnspråkdidaktikk 1";
                     tegnspråk_muligheter3.Semester = 7;
-                    tegnspråk_muligheter3.Emnekode = "";
-                    tegnspråk_muligheter3.Studiepoeng = "0";
+                    tegnspråk_muligheter3.Emnekode = "MGNT4100";
+                    tegnspråk_muligheter3.Studiepoeng = "15";
+                    tegnspråk_muligheter3.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGNT4100/2021/H%C3%98ST";
                     context.Add(tegnspråk_muligheter3);
 
                     //Muligheter masterFagId 11
                     var tegnspråk_muligheter4 = new Muligheter();
                     tegnspråk_muligheter4.Id = 61;
                     tegnspråk_muligheter4.MasterFagId = 11;
-                    tegnspråk_muligheter4.Fagnavn = "";
+                    tegnspråk_muligheter4.Fagnavn = "Norsk tegnspråk og tegnspråkdidaktikk 2";
                     tegnspråk_muligheter4.Semester = 8;
-                    tegnspråk_muligheter4.Emnekode = "";
-                    tegnspråk_muligheter4.Studiepoeng = "0";
+                    tegnspråk_muligheter4.Emnekode = "MGNT4200";
+                    tegnspråk_muligheter4.Studiepoeng = "15";
+                    tegnspråk_muligheter4.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGNT4200/2021/H%C3%98ST";
                     context.Add(tegnspråk_muligheter4);
 
                     //Muligheter masterFagId 11
                     var tegnspråk_muligheter5 = new Muligheter();
                     tegnspråk_muligheter5.Id = 62;
                     tegnspråk_muligheter5.MasterFagId = 11;
-                    tegnspråk_muligheter5.Fagnavn = "";
+                    tegnspråk_muligheter5.Fagnavn = "Norsk tegnspråk og tegnspråkdidaktikk 3";
                     tegnspråk_muligheter5.Semester = 9;
-                    tegnspråk_muligheter5.Emnekode = "";
-                    tegnspråk_muligheter5.Studiepoeng = "0";
+                    tegnspråk_muligheter5.Emnekode = "MGNT5100";
+                    tegnspråk_muligheter5.Studiepoeng = "15";
+                    tegnspråk_muligheter5.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGNT5100/2021/H%C3%98ST";
                     context.Add(tegnspråk_muligheter5);
 
 
@@ -899,8 +952,8 @@ namespace oslometAPI.Data
                     tegnspråk_muligheter6.MasterFagId = 11;
                     tegnspråk_muligheter6.Fagnavn = "Masteroppgave i tegnspråk";
                     tegnspråk_muligheter6.Semester = 10;
-                    tegnspråk_muligheter6.Emnekode = "Plaveholder";
-                    tegnspråk_muligheter6.Studiepoeng = "60";
+                    tegnspråk_muligheter6.Emnekode = "";
+                    tegnspråk_muligheter6.Studiepoeng = "30";
                     context.Add(tegnspråk_muligheter6);
 
 
@@ -920,6 +973,7 @@ namespace oslometAPI.Data
                     prof_ped1.Semester = 6;
                     prof_ped1.Emnekode = "MGPE3100";
                     prof_ped1.Studiepoeng = "30";
+                    prof_ped1.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGPE3100/2021/H%C3%98ST";
                     context.Add(prof_ped1);
 
                     //Muligheter masterFagId 12
@@ -930,6 +984,7 @@ namespace oslometAPI.Data
                     prof_ped2.Semester = 9;
                     prof_ped2.Emnekode = "MGPE5100";
                     prof_ped2.Studiepoeng = "30";
+                    prof_ped2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGPE5100/2021/H%C3%98ST";
                     context.Add(prof_ped2);
 
                     //Muligheter masterFagId 12 MASTERSØK
@@ -959,6 +1014,7 @@ namespace oslometAPI.Data
                     dig_ped1.Semester = 6;
                     dig_ped1.Emnekode = "MGPE3200";
                     dig_ped1.Studiepoeng = "30";
+                    dig_ped1.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGPE3200/2021/H%C3%98ST";
                     context.Add(dig_ped1);
 
                     //Muligheter masterFagId 13
@@ -969,6 +1025,7 @@ namespace oslometAPI.Data
                     dig_ped2.Semester = 9;
                     dig_ped2.Emnekode = "MGPE5200";
                     dig_ped2.Studiepoeng = "30";
+                    dig_ped2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGPE5200/2021/H%C3%98ST";
                     context.Add(dig_ped2);
 
                     //Muligheter masterFagId 13 MASTERSØK
@@ -998,6 +1055,7 @@ namespace oslometAPI.Data
                     spes_ped1.Semester = 6;
                     spes_ped1.Emnekode = "MGPE3300";
                     spes_ped1.Studiepoeng = "30";
+                    spes_ped1.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGPE3300/2021/H%C3%98ST";
                     context.Add(spes_ped1);
 
                     //Muligheter masterFagId 14
@@ -1008,6 +1066,7 @@ namespace oslometAPI.Data
                     spes_ped2.Semester = 9;
                     spes_ped2.Emnekode = "MGPE5300";
                     spes_ped2.Studiepoeng = "30";
+                    spes_ped1.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGPE5300/2021/H%C3%98ST";
                     context.Add(spes_ped2);
 
                     //Muligheter masterFagId 14 MASTERSØK
@@ -1036,6 +1095,7 @@ namespace oslometAPI.Data
                     mathelse1.Semester = 4;
                     mathelse1.Emnekode = "MGMH2100";
                     mathelse1.Studiepoeng = "30";
+                    mathelse1.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGMH2100/2021/H%C3%98ST";
                     context.Add(mathelse1);
 
                 
@@ -1059,6 +1119,8 @@ namespace oslometAPI.Data
                 oblig_matte1_2.Semester = 1;
                 oblig_matte1_2.Emnekode = "M5GMT1100, M5GMT1200";
                 oblig_matte1_2.Studiepoeng = "15 / 7.5";
+                oblig_matte1_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GMT1100/2021/H%C3%98ST";
+                oblig_matte1_2.URL2 = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GMT1200/2021/H%C3%98ST";
                 context.Add(oblig_matte1_2);
 
                 var oblig_matte3_2 = new ObligFags();
@@ -1068,6 +1130,8 @@ namespace oslometAPI.Data
                 oblig_matte3_2.Semester = 2;
                 oblig_matte3_2.Emnekode = "M5GMT1200, M5GMT1300";
                 oblig_matte3_2.Studiepoeng = "7.5 / 15";
+                oblig_matte3_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GMT1200/2021/H%C3%98ST";
+                oblig_matte3_2.URL2 = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GMT1300/2021/H%C3%98ST";
                 context.Add(oblig_matte3_2);
 
                 var oblig_matte5_2 = new ObligFags();
@@ -1077,6 +1141,7 @@ namespace oslometAPI.Data
                 oblig_matte5_2.Semester = 3;
                 oblig_matte5_2.Emnekode = "M5GMT2100";
                 oblig_matte5_2.Studiepoeng = "15";
+                oblig_matte5_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GMT2100/2021/H%C3%98ST";
                 context.Add(oblig_matte5_2);
 
 
@@ -1088,6 +1153,8 @@ namespace oslometAPI.Data
                 oblig_engelsk1_2.Emnekode = "M5GEN1100, M5GEN1200";
                 oblig_engelsk1_2.Studiepoeng = "15 / 15";
                 oblig_engelsk1_2.KlasseId = 2;
+                oblig_engelsk1_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GEN1100/2021/H%C3%98ST";
+                oblig_engelsk1_2.URL2 = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GEN1200/2021/H%C3%98ST";
                 context.Add(oblig_engelsk1_2);
 
                 var oblig_engelsk3_2 = new ObligFags();
@@ -1097,6 +1164,8 @@ namespace oslometAPI.Data
                 oblig_engelsk3_2.Emnekode = "M5GEN1200, M5GEN1300";
                 oblig_engelsk3_2.Studiepoeng = "15 / 15";
                 oblig_engelsk3_2.KlasseId = 2;
+                oblig_engelsk3_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GEN1200/2021/H%C3%98ST";
+                oblig_engelsk1_2.URL2 = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GEN1300/2021/H%C3%98ST";
                 context.Add(oblig_engelsk3_2);
 
                 var oblig_engelsk5_2 = new ObligFags();
@@ -1106,6 +1175,7 @@ namespace oslometAPI.Data
                 oblig_engelsk5_2.Emnekode = "M5GEN2100";
                 oblig_engelsk5_2.Studiepoeng = "15";
                 oblig_engelsk5_2.KlasseId = 2;
+                oblig_engelsk5_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GEN2100/2021/H%C3%98ST";
                 context.Add(oblig_engelsk5_2);
 
 
@@ -1117,6 +1187,8 @@ namespace oslometAPI.Data
                 oblig_norsk1_2.Semester = 1;
                 oblig_norsk1_2.Emnekode = "M5GNO1100, M5GNO1200";
                 oblig_norsk1_2.Studiepoeng = "15 / 7.5";
+                oblig_norsk1_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GNO1100/2021/H%C3%98ST";
+                oblig_norsk1_2.URL2 = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GNO1200/2021/H%C3%98ST";
                 context.Add(oblig_norsk1_2);
 
                 var oblig_norsk3_2 = new ObligFags();
@@ -1126,6 +1198,8 @@ namespace oslometAPI.Data
                 oblig_norsk3_2.Semester = 2;
                 oblig_norsk3_2.Emnekode = "M5GNO1200";
                 oblig_norsk3_2.Studiepoeng = "7.5 / 15";
+                oblig_norsk3_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GNO1200/2021/H%C3%98ST";
+                oblig_norsk3_2.URL2 = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GNO1300/2021/H%C3%98ST";
                 context.Add(oblig_norsk3_2); 
 
                 var oblig_norsk5_2 = new ObligFags();
@@ -1135,6 +1209,7 @@ namespace oslometAPI.Data
                 oblig_norsk5_2.Semester = 3;
                 oblig_norsk5_2.Emnekode = "M5GNO2100";
                 oblig_norsk5_2.Studiepoeng = "15";
+                oblig_norsk5_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GNO2100/2021/H%C3%98ST";
                 context.Add(oblig_norsk5_2);
 
 
@@ -1147,6 +1222,7 @@ namespace oslometAPI.Data
                 oblig_pel_2.Semester = 1;
                 oblig_pel_2.Emnekode = "M5GPE1100";
                 oblig_pel_2.Studiepoeng = "7.5";
+                oblig_pel_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GPE1100/2021/H%C3%98ST";
                 context.Add(oblig_pel_2);
 
                 //PEL1 - sem 2
@@ -1157,6 +1233,7 @@ namespace oslometAPI.Data
                 oblig_pel2_2.Semester = 2;
                 oblig_pel2_2.Emnekode = "M1GPE1100";
                 oblig_pel2_2.Studiepoeng = "7.5";
+                oblig_pel2_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GPE1100/2021/H%C3%98ST";
                 context.Add(oblig_pel2_2);
 
                 //PEL2
@@ -1167,6 +1244,7 @@ namespace oslometAPI.Data
                 oblig_pel3_2.Semester = 3;
                 oblig_pel3_2.Emnekode = "M5GPE2100";
                 oblig_pel3_2.Studiepoeng = "15";
+                oblig_pel3_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GPE2100/2021/H%C3%98ST";
                 context.Add(oblig_pel3_2);
 
                 //V&M
@@ -1177,6 +1255,7 @@ namespace oslometAPI.Data
                 oblig_VM_2.Semester = 7;
                 oblig_VM_2.Emnekode = "MGVM4100";
                 oblig_VM_2.Studiepoeng = "15";
+                oblig_VM_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGVM4100/2021/H%C3%98ST";
                 context.Add(oblig_VM_2);
 
                 //PEL3
@@ -1187,6 +1266,7 @@ namespace oslometAPI.Data
                 oblig_pel4_2.Semester = 8;
                 oblig_pel4_2.Emnekode = "M5GPE4100";
                 oblig_pel4_2.Studiepoeng = "15";
+                oblig_pel4_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GPE4100/2021/H%C3%98ST";
                 context.Add(oblig_pel4_2);
 
                 //PEL4
@@ -1197,6 +1277,7 @@ namespace oslometAPI.Data
                 oblig_pel5_2.Semester = 9;
                 oblig_pel5_2.Emnekode = "M5GPE5100";
                 oblig_pel5_2.Studiepoeng = "15";
+                oblig_pel5_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GPE5100/2021/H%C3%98ST";
                 context.Add(oblig_pel5_2);
 
 
@@ -1216,7 +1297,8 @@ namespace oslometAPI.Data
                     norsk_muligheter1_2.Semester = 7;
                     norsk_muligheter1_2.Emnekode = "MGNO4100";
                     norsk_muligheter1_2.Studiepoeng = "15";
-                    context.Add(norsk_muligheter1_2);
+                norsk_muligheter1_2.URL = "";
+                context.Add(norsk_muligheter1_2);
 
                     //muligheter masterFagId 15
                     var norsk_muligheter2_2 = new Muligheter();
@@ -1226,7 +1308,8 @@ namespace oslometAPI.Data
                     norsk_muligheter2_2.Semester = 8;
                     norsk_muligheter2_2.Emnekode = "MGNO4200";
                     norsk_muligheter2_2.Studiepoeng = "15";
-                    context.Add(norsk_muligheter2_2);
+                norsk_muligheter2_2.URL = "";
+                context.Add(norsk_muligheter2_2);
 
                     //muligheter masterFagId 15
                     var norsk_muligheter3_2 = new Muligheter();
@@ -1236,7 +1319,8 @@ namespace oslometAPI.Data
                     norsk_muligheter3_2.Semester = 9;
                     norsk_muligheter3_2.Emnekode = "MGNO5100";
                     norsk_muligheter3_2.Studiepoeng = "15";
-                    context.Add(norsk_muligheter3_2);
+                norsk_muligheter3_2.URL = "";
+                context.Add(norsk_muligheter3_2);
 
                     //Muligheter masterFagId 15
                     var norsk61 = new Muligheter();
@@ -1247,6 +1331,9 @@ namespace oslometAPI.Data
                     norsk61.Semester = 5;
                     norsk61.Emnekode = "M5GNO1100, M5GNO1200, M5GNO3100";
                     norsk61.Studiepoeng = "30";
+                    norsk61.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GNO1100/2021/H%C3%98ST";
+                    norsk61.URL2 = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GNO1200/2021/H%C3%98ST";
+                    norsk61.URL3 = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GNO3100/2021/H%C3%98ST";
                     context.Add(norsk61);
 
                     //Muligheter masterFagId 15
@@ -1258,6 +1345,9 @@ namespace oslometAPI.Data
                     norsk62.Semester = 6;
                     norsk62.Emnekode = "M5GNO1200, M5GNO1300, M5GNO3100";
                     norsk62.Studiepoeng = "30";
+                    norsk62.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GNO1200/2021/H%C3%98ST";
+                    norsk62.URL2 = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GNO1300/2021/H%C3%98ST";
+                    norsk62.URL3 = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GNO3100/2021/H%C3%98ST";
                     context.Add(norsk62);
 
                     //muligheter masterFagId 15 MASTERSØK
@@ -1267,7 +1357,7 @@ namespace oslometAPI.Data
                     norsk_muligheter4_2.Fagnavn = "Masteroppgave i norsk";
                     norsk_muligheter4_2.Semester = 10;
                     norsk_muligheter4_2.Emnekode = "";
-                    norsk_muligheter4_2.Studiepoeng = "15";
+                    norsk_muligheter4_2.Studiepoeng = "30";
                     context.Add(norsk_muligheter4_2);
 
 
@@ -1286,6 +1376,7 @@ namespace oslometAPI.Data
                     matte_muligheter1_2.Semester = 7;
                     matte_muligheter1_2.Emnekode = "MGMT4100";
                     matte_muligheter1_2.Studiepoeng = "15";
+                    matte_muligheter1_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGMT4100/2021/H%C3%98ST";
                     context.Add(matte_muligheter1_2);
 
                     //Muligheter masterFagId 16
@@ -1296,6 +1387,7 @@ namespace oslometAPI.Data
                     matte_muligheter2_2.Semester = 8;
                     matte_muligheter2_2.Emnekode = "MGMT4200";
                     matte_muligheter2_2.Studiepoeng = "15";
+                    matte_muligheter2_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGMT4200/2021/H%C3%98ST";
                     context.Add(matte_muligheter2_2);
 
                     //Muligheter masterFagId 16
@@ -1306,6 +1398,7 @@ namespace oslometAPI.Data
                     matte_muligheter3_2.Semester = 9;
                     matte_muligheter3_2.Emnekode = "MGMT5100";
                     matte_muligheter3_2.Studiepoeng = "15";
+                    matte_muligheter3_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGMT5100/2021/H%C3%98ST";
                     context.Add(matte_muligheter3_2);
 
                     //Muligheter masterFagId 16
@@ -1317,6 +1410,9 @@ namespace oslometAPI.Data
                     matte61.Semester = 5;
                     matte61.Emnekode = "M5GMT1100, M5GMT1200, M5GMT3100";
                     matte61.Studiepoeng = "30";
+                    matte61.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GMT1100/2021/H%C3%98ST";
+                    matte61.URL2 = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GMT1200/2021/H%C3%98ST";
+                    matte61.URL3 = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GMT3100/2021/H%C3%98ST";
                     context.Add(matte61);
 
                     //Muligheter masterFagId 16
@@ -1328,10 +1424,12 @@ namespace oslometAPI.Data
                     matte62.Semester = 6;
                     matte62.Emnekode = "M5GMT1200, M5GMT1300";
                     matte62.Studiepoeng = "30";
+                    matte62.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GMT1200/2021/H%C3%98ST";
+                    matte62.URL2 = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GMT1300/2021/H%C3%98ST";
                     context.Add(matte62);
 
-                //Muligheter masterFagId 16 MASTERSØK
-                var matte_muligheter4_2 = new Muligheter();
+                    //Muligheter masterFagId 16 MASTERSØK
+                    var matte_muligheter4_2 = new Muligheter();
                     matte_muligheter4_2.Id = 81;
                     matte_muligheter4_2.MasterFagId = 16;
                     matte_muligheter4_2.Fagnavn = "Masteroppgave i matematikk";
@@ -1356,6 +1454,7 @@ namespace oslometAPI.Data
                     engelsk_muligheter1_2.Semester = 7;
                     engelsk_muligheter1_2.Emnekode = "MGEN4100";
                     engelsk_muligheter1_2.Studiepoeng = "15";
+                    engelsk_muligheter1_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGEN4100/2021/H%C3%98ST";
                     context.Add(engelsk_muligheter1_2);
 
                     //Muligheter masterFagId 17
@@ -1366,6 +1465,7 @@ namespace oslometAPI.Data
                     engelsk_muligheter2_2.Semester = 8;
                     engelsk_muligheter2_2.Emnekode = "MGEN4200";
                     engelsk_muligheter2_2.Studiepoeng = "15";
+                    engelsk_muligheter2_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGEN4200/2021/H%C3%98ST";
                     context.Add(engelsk_muligheter2_2);
 
                     //Muligheter masterFagId 17
@@ -1376,6 +1476,7 @@ namespace oslometAPI.Data
                     engelsk_muligheter3_2.Semester = 9;
                     engelsk_muligheter3_2.Emnekode = "MGEN5100";
                     engelsk_muligheter3_2.Studiepoeng = "15";
+                    engelsk_muligheter3_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGEN5100/2021/H%C3%98ST";
                     context.Add(engelsk_muligheter3_2);
 
                     //Muligheter masterFagId 17
@@ -1387,6 +1488,8 @@ namespace oslometAPI.Data
                     engelsk61.Semester = 5;
                     engelsk61.Emnekode = "M5GEN1100, M5GEN1200";
                     engelsk61.Studiepoeng = "30";
+                    engelsk61.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GEN1100/2021/H%C3%98ST";
+                    engelsk61.URL2 = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GEN1200/2021/H%C3%98ST";
                     context.Add(engelsk61);
 
                     //Muligheter masterFagId 17
@@ -1398,10 +1501,13 @@ namespace oslometAPI.Data
                     engelsk62.Semester = 6;
                     engelsk62.Emnekode = "M5GEN1200, M5GEN1300, M5GEN3100";
                     engelsk62.Studiepoeng = "30";
+                    engelsk62.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GEN1200/2021/H%C3%98ST";
+                    engelsk62.URL2 = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GEN1300/2021/H%C3%98ST";
+                    engelsk62.URL3 = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GEN3100/2021/H%C3%98ST";
                     context.Add(engelsk62);
 
-                //Muligheter masterFagId 17 MASTERSØK
-                var engelsk_muligheter4_2 = new Muligheter();
+                    //Muligheter masterFagId 17 MASTERSØK
+                    var engelsk_muligheter4_2 = new Muligheter();
                     engelsk_muligheter4_2.Id = 85;
                     engelsk_muligheter4_2.MasterFagId = 17;
                     engelsk_muligheter4_2.Fagnavn = "Masteroppgave i engelsk";
@@ -1411,74 +1517,80 @@ namespace oslometAPI.Data
                     context.Add(engelsk_muligheter4_2);
 
 
-                //Masterfag 18 KRLE
-                var masterfag_KRLE_2 = new MasterFag();
-                masterfag_KRLE_2.Id = 18;
-                masterfag_KRLE_2.KlasseId = 2;
-                masterfag_KRLE_2.Fagnavn = "RLE";
-                context.Add(masterfag_KRLE_2);
+                //Masterfag 18 RLE
+                var masterfag_RLE_2 = new MasterFag();
+                masterfag_RLE_2.Id = 18;
+                masterfag_RLE_2.KlasseId = 2;
+                masterfag_RLE_2.Fagnavn = "RLE";
+                context.Add(masterfag_RLE_2);
 
                     //Muligheter masterFagId 18
-                    var KRLE_muligheter1_2 = new Muligheter();
-                    KRLE_muligheter1_2.Id = 86;
-                    KRLE_muligheter1_2.MasterFagId = 18;
-                    KRLE_muligheter1_2.KlasseId = 2;
-                    KRLE_muligheter1_2.Fagnavn = "RLE 1, emne 1 og 2";
-                    KRLE_muligheter1_2.Semester = 4;
-                    KRLE_muligheter1_2.Emnekode = "M5GRL2100, M5GRL2200";
-                    KRLE_muligheter1_2.Studiepoeng = "15 / 15";
-                    context.Add(KRLE_muligheter1_2);
+                    var RLE_muligheter1_2 = new Muligheter();
+                    RLE_muligheter1_2.Id = 86;
+                    RLE_muligheter1_2.MasterFagId = 18;
+                    RLE_muligheter1_2.KlasseId = 2;
+                    RLE_muligheter1_2.Fagnavn = "RLE 1, emne 1 og 2";
+                    RLE_muligheter1_2.Semester = 4;
+                    RLE_muligheter1_2.Emnekode = "M5GRL2100, M5GRL2200";
+                    RLE_muligheter1_2.Studiepoeng = "15 / 15";
+                    RLE_muligheter1_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GRL2100/2021/H%C3%98ST";
+                    RLE_muligheter1_2.URL2 = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GRL2200/2021/H%C3%98ST";
+                    context.Add(RLE_muligheter1_2);
 
                     //Muligheter masterFagId 18
-                    var KRLE_muligheter3_2 = new Muligheter();
-                    KRLE_muligheter3_2.Id = 87;
-                    KRLE_muligheter3_2.MasterFagId = 18;
-                    KRLE_muligheter3_2.KlasseId = 2;
-                    KRLE_muligheter3_2.Fagnavn = "RLE 2, emne 3";
-                    KRLE_muligheter3_2.Semester = 5;
-                    KRLE_muligheter3_2.Emnekode = "M5GRL3100";
-                    KRLE_muligheter3_2.Studiepoeng = "30";
-                    context.Add(KRLE_muligheter3_2);
+                    var RLE_muligheter3_2 = new Muligheter();
+                    RLE_muligheter3_2.Id = 87;
+                    RLE_muligheter3_2.MasterFagId = 18;
+                    RLE_muligheter3_2.KlasseId = 2;
+                    RLE_muligheter3_2.Fagnavn = "RLE 2, emne 3";
+                    RLE_muligheter3_2.Semester = 5;
+                    RLE_muligheter3_2.Emnekode = "M5GRL3100";
+                    RLE_muligheter3_2.Studiepoeng = "30";
+                    RLE_muligheter3_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GRL3100/2021/H%C3%98ST";
+                    context.Add(RLE_muligheter3_2);
 
                     //Muligheter masterFagId 18
-                    var KRLE_muligheter4_2 = new Muligheter();
-                    KRLE_muligheter4_2.Id = 88;
-                    KRLE_muligheter4_2.MasterFagId = 18;
-                    KRLE_muligheter4_2.Fagnavn = "RLE og RLE-didaktikk 1";
-                    KRLE_muligheter4_2.Semester = 7;
-                    KRLE_muligheter4_2.Emnekode = "MGRL4100";
-                    KRLE_muligheter4_2.Studiepoeng = "15";
-                    context.Add(KRLE_muligheter4_2);
+                    var RLE_muligheter4_2 = new Muligheter();
+                    RLE_muligheter4_2.Id = 88;
+                    RLE_muligheter4_2.MasterFagId = 18;
+                    RLE_muligheter4_2.Fagnavn = "RLE og RLE-didaktikk 1";
+                    RLE_muligheter4_2.Semester = 7;
+                    RLE_muligheter4_2.Emnekode = "MGRL4100";
+                    RLE_muligheter4_2.Studiepoeng = "15";
+                    RLE_muligheter4_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGRL4100/2021/H%C3%98ST";
+                    context.Add(RLE_muligheter4_2);
 
                     //Muligheter masterFagId 18
-                    var KRLE_muligheter5_2 = new Muligheter();
-                    KRLE_muligheter5_2.Id = 89;
-                    KRLE_muligheter5_2.MasterFagId = 18;
-                    KRLE_muligheter5_2.Fagnavn = "RLE og RLE-didaktikk 2";
-                    KRLE_muligheter5_2.Semester = 8;
-                    KRLE_muligheter5_2.Emnekode = "MGRL4200";
-                    KRLE_muligheter5_2.Studiepoeng = "15";
-                    context.Add(KRLE_muligheter5_2);
+                    var RLE_muligheter5_2 = new Muligheter();
+                    RLE_muligheter5_2.Id = 89;
+                    RLE_muligheter5_2.MasterFagId = 18;
+                    RLE_muligheter5_2.Fagnavn = "RLE og RLE-didaktikk 2";
+                    RLE_muligheter5_2.Semester = 8;
+                    RLE_muligheter5_2.Emnekode = "MGRL4200";
+                    RLE_muligheter5_2.Studiepoeng = "15";
+                    RLE_muligheter5_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGRL4200/2021/H%C3%98ST";
+                    context.Add(RLE_muligheter5_2);
 
                     //Muligheter masterFagId 18
-                    var KRLE_muligheter6_2 = new Muligheter();
-                    KRLE_muligheter6_2.Id = 90;
-                    KRLE_muligheter6_2.MasterFagId = 18;
-                    KRLE_muligheter6_2.Fagnavn = "RLE og RLE-didaktikk 3";
-                    KRLE_muligheter6_2.Semester = 9;
-                    KRLE_muligheter6_2.Emnekode = "MGRL5100";
-                    KRLE_muligheter6_2.Studiepoeng = "15";
-                    context.Add(KRLE_muligheter6_2);
+                    var RLE_muligheter6_2 = new Muligheter();
+                    RLE_muligheter6_2.Id = 90;
+                    RLE_muligheter6_2.MasterFagId = 18;
+                    RLE_muligheter6_2.Fagnavn = "RLE og RLE-didaktikk 3";
+                    RLE_muligheter6_2.Semester = 9;
+                    RLE_muligheter6_2.Emnekode = "MGRL5100";
+                    RLE_muligheter6_2.Studiepoeng = "15";
+                    RLE_muligheter6_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGRL5100/2021/H%C3%98ST";
+                    context.Add(RLE_muligheter6_2);
 
                     //Muligheter masterFagId 18 MASTERSØK
-                    var KRLE_muligheter7_2 = new Muligheter();
-                    KRLE_muligheter7_2.Id = 91;
-                    KRLE_muligheter7_2.MasterFagId = 18;
-                    KRLE_muligheter7_2.Fagnavn = "Masteroppgave i RLE";
-                    KRLE_muligheter7_2.Semester = 10;
-                    KRLE_muligheter7_2.Emnekode = "";
-                    KRLE_muligheter7_2.Studiepoeng = "30";
-                    context.Add(KRLE_muligheter7_2);
+                    var RLE_muligheter7_2 = new Muligheter();
+                    RLE_muligheter7_2.Id = 91;
+                    RLE_muligheter7_2.MasterFagId = 18;
+                    RLE_muligheter7_2.Fagnavn = "Masteroppgave i RLE";
+                    RLE_muligheter7_2.Semester = 10;
+                    RLE_muligheter7_2.Emnekode = "";
+                    RLE_muligheter7_2.Studiepoeng = "30";
+                    context.Add(RLE_muligheter7_2);
 
 
                 //Masterfag 19 kroppsøving
@@ -1497,6 +1609,7 @@ namespace oslometAPI.Data
                     gym_muligheter1_2.Semester = 4;
                     gym_muligheter1_2.Emnekode = "M5GKP2100";
                     gym_muligheter1_2.Studiepoeng = "30";
+                    gym_muligheter1_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GKP2100/2021/H%C3%98ST";
                     context.Add(gym_muligheter1_2);
 
                     //Muligheter masterFagId 19
@@ -1508,6 +1621,7 @@ namespace oslometAPI.Data
                     gym_muligheter2_2.Semester = 5;
                     gym_muligheter2_2.Emnekode = "M1GKP3100";
                     gym_muligheter2_2.Studiepoeng = "30";
+                    gym_muligheter2_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GKP3100/2021/H%C3%98ST";
                     context.Add(gym_muligheter2_2);
 
                     //Muligheter masterFagId 19
@@ -1518,6 +1632,7 @@ namespace oslometAPI.Data
                     gym_muligheter3_2.Semester = 7;
                     gym_muligheter3_2.Emnekode = "MGKP4100";
                     gym_muligheter3_2.Studiepoeng = "15";
+                    gym_muligheter3_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGKP4100/2021/H%C3%98ST";
                     context.Add(gym_muligheter3_2);
 
                     //Muligheter masterFagId 19
@@ -1528,6 +1643,7 @@ namespace oslometAPI.Data
                     gym_muligheter4_2.Semester = 8;
                     gym_muligheter4_2.Emnekode = "MGKP4200";
                     gym_muligheter4_2.Studiepoeng = "15";
+                    gym_muligheter4_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGKP4200/2021/H%C3%98ST";
                     context.Add(gym_muligheter4_2);
 
                     //Muligheter masterFagId 19
@@ -1538,6 +1654,7 @@ namespace oslometAPI.Data
                     gym_muligheter5_2.Semester = 9;
                     gym_muligheter5_2.Emnekode = "MGKP5100";
                     gym_muligheter5_2.Studiepoeng = "15";
+                    gym_muligheter5_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGKP5100/2021/H%C3%98ST";
                     context.Add(gym_muligheter5_2);
 
                     //Muligheter masterFagId 19 MASTERSØK
@@ -1567,6 +1684,7 @@ namespace oslometAPI.Data
                     KH_muligheter1_2.Semester = 4;
                     KH_muligheter1_2.Emnekode = "MGKH2100";
                     KH_muligheter1_2.Studiepoeng = "30";
+                    KH_muligheter1_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGKH2100/2021/H%C3%98ST";
                     context.Add(KH_muligheter1_2);
 
                     //Muligheter masterFagId 20
@@ -1578,6 +1696,7 @@ namespace oslometAPI.Data
                     KH_muligheter2_2.Semester = 5;
                     KH_muligheter2_2.Emnekode = "MGKH2100";
                     KH_muligheter2_2.Studiepoeng = "30";
+                    KH_muligheter2_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGKH3100/2021/H%C3%98ST";
                     context.Add(KH_muligheter2_2);
 
                     //Muligheter masterFagId 20
@@ -1588,6 +1707,7 @@ namespace oslometAPI.Data
                     KH_muligheter3_2.Semester = 7;
                     KH_muligheter3_2.Emnekode = "MFAGL4000";
                     KH_muligheter3_2.Studiepoeng = "15";
+                    KH_muligheter3_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MFAGL4000/2021/H%C3%98ST";
                     context.Add(KH_muligheter3_2);
 
                     //Muligheter masterFagId 20
@@ -1598,6 +1718,7 @@ namespace oslometAPI.Data
                     KH_muligheter4_2.Semester = 8;
                     KH_muligheter4_2.Emnekode = "MFAGL4200";
                     KH_muligheter4_2.Studiepoeng = "15";
+                    KH_muligheter4_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MFAGL4200/2021/H%C3%98ST";
                     context.Add(KH_muligheter4_2);
 
                     //Muligheter masterFagId 20
@@ -1608,6 +1729,7 @@ namespace oslometAPI.Data
                     KH_muligheter5_2.Semester = 9;
                     KH_muligheter5_2.Emnekode = "MFAGL5000";
                     KH_muligheter5_2.Studiepoeng = "15";
+                    KH_muligheter5_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MFAGL5000/2021/H%C3%98ST";
                     context.Add(KH_muligheter5_2);
 
                     //Muligheter masterFagId 20 MASTERSØK
@@ -1636,6 +1758,8 @@ namespace oslometAPI.Data
                     musikk_muligheter1_2.Semester = 4;
                     musikk_muligheter1_2.Emnekode = "M5GMU2100, M5GMU2200";
                     musikk_muligheter1_2.Studiepoeng = "15 / 15";
+                    musikk_muligheter1_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GMU2100/2021/H%C3%98ST";
+                    musikk_muligheter1_2.URL2 = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GMU2200/2021/H%C3%98ST";
                     context.Add(musikk_muligheter1_2);
 
                     //Muligheter masterFagId 21
@@ -1647,6 +1771,7 @@ namespace oslometAPI.Data
                     musikk_muligheter3_2.Semester = 5;
                     musikk_muligheter3_2.Emnekode = "M5GMU3100";
                     musikk_muligheter3_2.Studiepoeng = "30";
+                    musikk_muligheter3_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GMU3100/2021/H%C3%98ST";
                     context.Add(musikk_muligheter3_2);
 
                     //Muligheter masterFagId 21
@@ -1657,6 +1782,7 @@ namespace oslometAPI.Data
                     musikk_muligheter4_2.Semester = 7;
                     musikk_muligheter4_2.Emnekode = "MGMU4100";
                     musikk_muligheter4_2.Studiepoeng = "15";
+                    musikk_muligheter4_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGMU4100/2021/H%C3%98ST";
                     context.Add(musikk_muligheter4_2);
 
                     //Muligheter masterFagId 22
@@ -1667,6 +1793,7 @@ namespace oslometAPI.Data
                     musikk_muligheter5_2.Semester = 8;
                     musikk_muligheter5_2.Emnekode = "MGMU4200";
                     musikk_muligheter5_2.Studiepoeng = "15";
+                    musikk_muligheter5_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGMU4200/2021/H%C3%98ST";
                     context.Add(musikk_muligheter5_2);
 
                     //Muligheter masterFagId 21
@@ -1677,6 +1804,7 @@ namespace oslometAPI.Data
                     musikk_muligheter6_2.Semester = 9;
                     musikk_muligheter6_2.Emnekode = "MGMU5100";
                     musikk_muligheter6_2.Studiepoeng = "15";
+                    musikk_muligheter6_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGMU5100/2021/H%C3%98ST";
                     context.Add(musikk_muligheter6_2);
 
                     //Muligheter masterFagId 21 MASTERSØK
@@ -1706,18 +1834,9 @@ namespace oslometAPI.Data
                     naturfag_muligheter1_2.Semester = 4;
                     naturfag_muligheter1_2.Emnekode = "M5GNA2100, M5GNA2200";
                     naturfag_muligheter1_2.Studiepoeng = "15 / 15";
+                    naturfag_muligheter1_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GNA2100/2021/H%C3%98ST";
+                    naturfag_muligheter1_2.URL2 = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GNA2200/2021/H%C3%98ST";
                     context.Add(naturfag_muligheter1_2);
-
-                    ////Muligheter masterFagId 22
-                    //var naturfag_muligheter2_2 = new Muligheter();
-                    //naturfag_muligheter2_2.Id = 111;
-                    //naturfag_muligheter2_2.MasterFagId = 22;
-                    //naturfag_muligheter2_2.KlasseId = 2;
-                    //naturfag_muligheter2_2.Fagnavn = "Naturfag 1, emne 2";
-                    //naturfag_muligheter2_2.Semester = 4;
-                    //naturfag_muligheter2_2.Emnekode = "M5GNA2200";
-                    //naturfag_muligheter2_2.Studiepoeng = "15";
-                    //context.Add(naturfag_muligheter2_2);
 
                     //Muligheter masterFagId 22
                     var naturfag_muligheter3_2 = new Muligheter();
@@ -1728,6 +1847,7 @@ namespace oslometAPI.Data
                     naturfag_muligheter3_2.Semester = 5;
                     naturfag_muligheter3_2.Emnekode = "M5GNA3100";
                     naturfag_muligheter3_2.Studiepoeng = "30";
+                    naturfag_muligheter3_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GNA3100/2021/H%C3%98ST";
                     context.Add(naturfag_muligheter3_2);
 
                     //Muligheter masterFagId 22
@@ -1738,6 +1858,7 @@ namespace oslometAPI.Data
                     naturfag_muligheter4_2.Semester = 7;
                     naturfag_muligheter4_2.Emnekode = "MGNA4100";
                     naturfag_muligheter4_2.Studiepoeng = "15";
+                    naturfag_muligheter4_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGNA4100/2021/H%C3%98ST";
                     context.Add(naturfag_muligheter4_2);
 
                     //Muligheter masterFagId 22
@@ -1748,6 +1869,7 @@ namespace oslometAPI.Data
                     naturfag_muligheter5_2.Semester = 8;
                     naturfag_muligheter5_2.Emnekode = "MGNA4200";
                     naturfag_muligheter5_2.Studiepoeng = "15";
+                    naturfag_muligheter5_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGNA4200/2021/H%C3%98ST";
                     context.Add(naturfag_muligheter5_2);
 
                     //Muligheter masterFagId 22
@@ -1758,6 +1880,7 @@ namespace oslometAPI.Data
                     naturfag_muligheter6_2.Semester = 9;
                     naturfag_muligheter6_2.Emnekode = "MGNA5100";
                     naturfag_muligheter6_2.Studiepoeng = "15";
+                    naturfag_muligheter6_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGNA5100/2021/H%C3%98ST";
                     context.Add(naturfag_muligheter6_2);
 
                     //Muligheter masterFagId 22
@@ -1787,6 +1910,8 @@ namespace oslometAPI.Data
                     samfunnsfag_muligheter1_2.Semester = 4;
                     samfunnsfag_muligheter1_2.Emnekode = "M5GSF2100, M5GSF2200";
                     samfunnsfag_muligheter1_2.Studiepoeng = "15 / 15";
+                    samfunnsfag_muligheter1_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GSF2100/2021/H%C3%98ST";
+                    samfunnsfag_muligheter1_2.URL2 = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GSF2200/2021/H%C3%98ST";
                     context.Add(samfunnsfag_muligheter1_2);
 
                     //Muligheter masterFagId 23
@@ -1798,7 +1923,7 @@ namespace oslometAPI.Data
                     samfunnsfag_muligheter3_2.Semester = 5;
                     samfunnsfag_muligheter3_2.Emnekode = "M5GSF3100";
                     samfunnsfag_muligheter3_2.Studiepoeng = "30";
-
+                    samfunnsfag_muligheter3_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/M5GSF3100/2021/H%C3%98ST";
                     context.Add(samfunnsfag_muligheter3_2);
 
                     //Muligheter masterFagId 23
@@ -1809,6 +1934,7 @@ namespace oslometAPI.Data
                     samfunnsfag_muligheter4_2.Semester = 7;
                     samfunnsfag_muligheter4_2.Emnekode = "MGSF4100";
                     samfunnsfag_muligheter4_2.Studiepoeng = "15";
+                    samfunnsfag_muligheter4_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGSF4100/2021/H%C3%98ST";
                     context.Add(samfunnsfag_muligheter4_2);
 
                     //Muligheter masterFagId 23
@@ -1819,6 +1945,7 @@ namespace oslometAPI.Data
                     samfunnsfag_muligheter5_2.Semester = 8;
                     samfunnsfag_muligheter5_2.Emnekode = "MGSF4200";
                     samfunnsfag_muligheter5_2.Studiepoeng = "15";
+                    samfunnsfag_muligheter5_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGSF4200/2021/H%C3%98ST";
                     context.Add(samfunnsfag_muligheter5_2);
 
                     //Muligheter masterFagId 23
@@ -1829,6 +1956,7 @@ namespace oslometAPI.Data
                     samfunnsfag_muligheter6_2.Semester = 9;
                     samfunnsfag_muligheter6_2.Emnekode = "MGSF5100";
                     samfunnsfag_muligheter6_2.Studiepoeng = "15";
+                    samfunnsfag_muligheter6_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGSF5100/2021/H%C3%98ST";
                     context.Add(samfunnsfag_muligheter6_2);
 
                     //Muligheter masterFagId 23 MASTERSØK
@@ -1857,6 +1985,7 @@ namespace oslometAPI.Data
                     tegnspråk_muligheter1_2.Semester = 5;
                     tegnspråk_muligheter1_2.Emnekode = "MGNT3100";
                     tegnspråk_muligheter1_2.Studiepoeng = "30";
+                    tegnspråk_muligheter1_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGNT3100/2021/H%C3%98ST";
                     context.Add(tegnspråk_muligheter1_2);
 
                     //Muligheter masterFagId 24
@@ -1868,36 +1997,40 @@ namespace oslometAPI.Data
                     tegnspråk_muligheter2_2.Semester = 6;
                     tegnspråk_muligheter2_2.Emnekode = "MGNT3200";
                     tegnspråk_muligheter2_2.Studiepoeng = "30";
+                    tegnspråk_muligheter2_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGNT3200/2021/H%C3%98ST";
                     context.Add(tegnspråk_muligheter2_2);
 
                     //Muligheter masterFagId 24
                     var tegnspråk_muligheter3_2 = new Muligheter();
                     tegnspråk_muligheter3_2.Id = 125;
                     tegnspråk_muligheter3_2.MasterFagId = 24;
-                    tegnspråk_muligheter3_2.Fagnavn = "";
+                    tegnspråk_muligheter3_2.Fagnavn = "Norsk tegnspråk og tegnspråksdidktikk 1";
                     tegnspråk_muligheter3_2.Semester = 7;
-                    tegnspråk_muligheter3_2.Emnekode = "";
-                    tegnspråk_muligheter3_2.Studiepoeng = "0";
+                    tegnspråk_muligheter3_2.Emnekode = "MGNT4100";
+                    tegnspråk_muligheter3_2.Studiepoeng = "15";
+                    tegnspråk_muligheter3_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGNT4100/2021/H%C3%98ST";
                     context.Add(tegnspråk_muligheter3_2);
 
                     //Muligheter masterFagId 24
                     var tegnspråk_muligheter4_2 = new Muligheter();
                     tegnspråk_muligheter4_2.Id = 126;
                     tegnspråk_muligheter4_2.MasterFagId = 24;
-                    tegnspråk_muligheter4_2.Fagnavn = "";
+                    tegnspråk_muligheter4_2.Fagnavn = "Norsk tegnspråk og tegnspråksdidktikk 2";
                     tegnspråk_muligheter4_2.Semester = 8;
-                    tegnspråk_muligheter4_2.Emnekode = "";
-                    tegnspråk_muligheter4_2.Studiepoeng = "0";
+                    tegnspråk_muligheter4_2.Emnekode = "MGNT4200";
+                    tegnspråk_muligheter4_2.Studiepoeng = "15";
+                    tegnspråk_muligheter4_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGNT4200/2021/H%C3%98ST";
                     context.Add(tegnspråk_muligheter4_2);
 
                     //Muligheter masterFagId 24
                     var tegnspråk_muligheter5_2 = new Muligheter();
                     tegnspråk_muligheter5_2.Id = 127;
                     tegnspråk_muligheter5_2.MasterFagId = 24;
-                    tegnspråk_muligheter5_2.Fagnavn = "";
+                    tegnspråk_muligheter5_2.Fagnavn = "Norsk tegnspråk og tegnspråksdidktikk 3";
                     tegnspråk_muligheter5_2.Semester = 9;
-                    tegnspråk_muligheter5_2.Emnekode = "";
-                    tegnspråk_muligheter5_2.Studiepoeng = "0";
+                    tegnspråk_muligheter5_2.Emnekode = "MGNT5100";
+                    tegnspråk_muligheter5_2.Studiepoeng = "15";
+                    tegnspråk_muligheter5_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGNT5100/2021/H%C3%98ST";
                     context.Add(tegnspråk_muligheter5_2);
 
                     //Muligheter masterFagId 24 MASTERSØK
@@ -1927,6 +2060,7 @@ namespace oslometAPI.Data
                     prof_ped1_2.Semester = 6;
                     prof_ped1_2.Emnekode = "MGPE3100";
                     prof_ped1_2.Studiepoeng = "30";
+                    prof_ped1_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGPE3100/2021/H%C3%98ST";
                     context.Add(prof_ped1_2);
 
                     //Muligheter masterFagId 22
@@ -1937,6 +2071,7 @@ namespace oslometAPI.Data
                     prof_ped2_2.Semester = 9;
                     prof_ped2_2.Emnekode = "MGPE5100";
                     prof_ped2_2.Studiepoeng = "30";
+                    prof_ped2_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGPE5100/2021/H%C3%98ST";
                     context.Add(prof_ped2_2);
 
                     //Muligheter masterFagId 22 MASTERSØK
@@ -1966,6 +2101,7 @@ namespace oslometAPI.Data
                     dig_ped1_2.Semester = 6;
                     dig_ped1_2.Emnekode = "MGPE3200";
                     dig_ped1_2.Studiepoeng = "30";
+                    dig_ped1_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGPE3200/2021/H%C3%98ST";
                     context.Add(dig_ped1_2);
 
                     //Muligheter masterFagId 26
@@ -1976,6 +2112,7 @@ namespace oslometAPI.Data
                     dig_ped2_2.Semester = 9;
                     dig_ped2_2.Emnekode = "MGPE5200";
                     dig_ped2_2.Studiepoeng = "30";
+                    dig_ped2_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGPE5200/2021/H%C3%98ST";
                     context.Add(dig_ped2_2);
 
                     //Muligheter masterFagId 26 MASTERSØK
@@ -2005,6 +2142,7 @@ namespace oslometAPI.Data
                     spes_ped1_2.Semester = 6;
                     spes_ped1_2.Emnekode = "MGPE3300";
                     spes_ped1_2.Studiepoeng = "30";
+                    spes_ped1_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGPE3300/2021/H%C3%98ST";
                     context.Add(spes_ped1_2);
 
                     //Muligheter masterFagId 27
@@ -2015,6 +2153,7 @@ namespace oslometAPI.Data
                     spes_ped2_2.Semester = 9;
                     spes_ped2_2.Emnekode = "MGPE5300";
                     spes_ped2_2.Studiepoeng = "30";
+                    spes_ped2_2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGPE5300/2021/H%C3%98ST";
                     context.Add(spes_ped2_2);
 
                     //Muligheter masterFagId 27 MASTERSØK
@@ -2043,6 +2182,7 @@ namespace oslometAPI.Data
                     mathelse2.Semester = 6;
                     mathelse2.Emnekode = "MGMH2100";
                     mathelse2.Studiepoeng = "30";
+                    mathelse2.URL = "https://student.oslomet.no/studier/-/studieinfo/emne/MGMH2100/2021/H%C3%98ST";
                     context.Add(mathelse2);
 
                 context.SaveChanges();
