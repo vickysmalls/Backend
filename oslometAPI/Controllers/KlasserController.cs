@@ -16,10 +16,10 @@ namespace oslometAPI.Controllers
     public class KlasserController : ControllerBase
     {
 
-        private readonly oslometContext _db;
+        private readonly IKlasserRepository _db;
         private ILogger<KlasserController> _log;
 
-        public KlasserController(oslometContext dB)
+        public KlasserController(IKlasserRepository dB)
         {
             _log = _log;
             _db = dB;
@@ -27,27 +27,19 @@ namespace oslometAPI.Controllers
 
         // GET: api/Klasser
         [HttpGet]
-        public ActionResult<IEnumerable<Klasser>> GetKlasser()
+        public async Task<List<Klasser>> GetKlasser()
         {
-            var klasser = _db.Klasse.ToList();
-            return klasser;
+            return await _db.GetKlasser();
+           
         }
 
         // GET: api/Klasser/5
         [HttpGet("{id}")]
-        public ActionResult<Klasser> GetKlasser(int id)
-
+        public async Task<Klasser> GetKlasser(int id)
         {
-            var klasser = _db.Klasse.Find(id);
-
-            if (klasser == null)
-            {
-                _log.LogInformation("Fant ikke klassen");
-                return NotFound();
-            }
-
-            return klasser;
+            return await _db.GetKlasser(id);
         }
 
     }
+
 }

@@ -21,7 +21,6 @@
     <PackageReference Include="Microsoft.AspNet.WebApi.Cors" Version="5.2.7" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Data\" />
     <Folder Include="Models\" />
     <Folder Include="Controllers\" />
     <Folder Include="wwwroot\" />

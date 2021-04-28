@@ -16,10 +16,10 @@ namespace oslometAPI.Controllers
     public class MasterFagController : ControllerBase
     {
         
-        private readonly oslometContext _db;
+        private readonly IMasterFagRepository _db;
         private ILogger<MasterFagController> _log;
 
-        public MasterFagController(oslometContext dB)
+        public MasterFagController(IMasterFagRepository dB)
         {
             _log = _log;
             _db = dB;
@@ -27,26 +27,23 @@ namespace oslometAPI.Controllers
 
         // GET: api/Kategori
         [HttpGet]
-        public ActionResult<IEnumerable<MasterFag>> GetMasterFag()
+        public async Task<List<MasterFag>> GetMasterFag()
         {
-            var masterfags = _db.MasterFag.ToList();
-            return masterfags;
+            return await _db.GetMasterFag();
         }
 
         // GET: api/MasterFag/5
         [HttpGet("{id}")]
-        public ActionResult<MasterFag> GetMasterFag(int id)
+        public async Task<MasterFag> GetMasterFag(int id)
+        {
+            return await _db.GetMasterFag(id);
+        }
+
+        [HttpGet("GetMasterFagByKlasser/{id}")]
+        public async Task<MasterFag> GetMasterFagByKategori(int id)
 
         {
-            var masterfag = _db.MasterFag.Find(id);
-
-            if (masterfag == null)
-            {
-                _log.LogInformation("Fant ikke masterfag");
-                return NotFound();
-            }
-
-            return masterfag;
+            return await _db.GetMasterFagByKategori(id);
         }
 
     }

@@ -18,7 +18,7 @@ namespace oslometAPI.Models
         public string URL { get; set; }
         public string URL2 { get; set; }
         public int KlasseId { get; set; }
-        public Klasser Klasser { get; set; }
+        // public Klasser Klasser { get; set; }
 
     }
 }

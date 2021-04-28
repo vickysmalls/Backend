@@ -24,6 +24,10 @@ namespace oslometAPI
 
             services.AddCors();
             services.AddControllers().AddJsonOptions(x => x.JsonSerializerOptions.IgnoreNullValues = true);
+            services.AddScoped<IKlasserRepository, KlasserRepository>();
+            services.AddScoped<IMasterFagRepository, MasterFagRepository>();
+            services.AddScoped<IObligFagsRepository, ObligFagsRepository>();
+            services.AddScoped<IMuligheterRepository, MuligheterRepository>();
 
 
 

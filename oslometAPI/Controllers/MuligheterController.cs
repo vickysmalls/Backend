@@ -16,10 +16,10 @@ namespace oslometAPI.Controllers
     public class MuligheterController : ControllerBase
     {
 
-        private readonly oslometContext _db;
+        private readonly IMuligheterRepository _db;
         private ILogger<MuligheterController> _log;
 
-        public MuligheterController(oslometContext dB)
+        public MuligheterController(IMuligheterRepository dB)
         {
             _log = _log;
             _db = dB;
@@ -27,41 +27,17 @@ namespace oslometAPI.Controllers
 
         // GET: api/Kategori
         [HttpGet]
-        public ActionResult<IEnumerable<Muligheter>> GetMasterFag()
+        public async Task<List<Muligheter>> GetMuligheter()
         {
-            var muligheter = _db.Mulighet.ToList();
-            return muligheter;
+            return await _db.GetMuligheter();
         }
 
         // GET: api/Muligheter/5
         [HttpGet("{id}")]
-        public ActionResult<Muligheter> GetMasterFag(int id)
+        public async Task<Muligheter> GetMuligheter(int id)
 
         {
-            var muligheter = _db.Mulighet.Find(id);
-
-            if (muligheter == null)
-            {
-                _log.LogInformation("Fant ikke kategori");
-                return NotFound();
-            }
-
-            return muligheter;
-        }
-
-
-        [HttpGet("GetMasterFagByKlasser/{id}")]
-        public IQueryable<MasterFag> GetMasterFagByKategori(int id)
-        {
-            Klasser klasser = new Klasser();
-            if (id != klasser.Id)
-            {
-                _log.LogInformation("Fant ikke master basert på klasse id");
-                return (IQueryable<MasterFag>)NotFound();
-            }
-            var masterByKat = _db.MasterFag.Where(q => q.KlasseId == id);
-            return (IQueryable<MasterFag>)Ok(masterByKat);
-
+            return await _db.GetMuligheter(id);
         }
 
     }
