@@ -9,6 +9,7 @@ using oslometAPI.Controllers;
 
 namespace oslometAPITest
 {
+
     public class KlasserControllerTest
     {
         [Fact]

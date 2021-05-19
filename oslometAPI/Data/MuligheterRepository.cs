@@ -11,6 +11,7 @@ namespace oslometAPI.Data
 {
     public class MuligheterRepository : IMuligheterRepository
     {
+
         private readonly oslometContext _db;
 
         public MuligheterRepository(oslometContext db)
@@ -65,7 +66,6 @@ namespace oslometAPI.Data
             };
             return hentMulighet;
         }
-
     }
 }
 

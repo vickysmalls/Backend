@@ -10,6 +10,7 @@ using System.Linq;
 
 namespace oslometAPITest
 {
+
     public class MasterFagControllerTest
     {
         [Fact]
@@ -39,8 +40,6 @@ namespace oslometAPITest
             masterFagList.Add(masterFag1);
             masterFagList.Add(masterFag2);
             masterFagList.Add(masterFag3);
-
-
 
             var mock = new Mock<IMasterFagRepository>();
             mock.Setup(k => k.GetMasterFag()).ReturnsAsync(masterFagList);
@@ -97,7 +96,6 @@ namespace oslometAPITest
             };
 
             var mock = new Mock<IMasterFagRepository>();
-
             mock.Setup(k => k.GetMasterFagByKategori(1)).ReturnsAsync(returnMasterFag);
             var masterFagController = new MasterFagController(mock.Object);
             MasterFag resultat = await masterFagController.GetMasterFagByKategori(1);
@@ -107,16 +105,11 @@ namespace oslometAPITest
         [Fact]
         public async Task GetMasterFagByKategoriIKKEOK()
         {
-          
             var mock = new Mock<IMasterFagRepository>();
             mock.Setup(k => k.GetMasterFagByKategori(1)).ReturnsAsync(() => null);
             var masterFagController = new MasterFagController(mock.Object);
             MasterFag resultat = await masterFagController.GetMasterFagByKategori(1);
             Assert.Null(resultat);
         }
-
-
-
-
     }
 }

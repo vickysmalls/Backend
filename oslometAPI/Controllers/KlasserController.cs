@@ -7,8 +7,6 @@ using Microsoft.Extensions.Logging;
 using oslometAPI.Data;
 using oslometAPI.Models;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace oslometAPI.Controllers
 {
     [Route("api/[controller]")]
@@ -30,7 +28,6 @@ namespace oslometAPI.Controllers
         public async Task<List<Klasser>> GetKlasser()
         {
             return await _db.GetKlasser();
-           
         }
 
         // GET: api/Klasser/5
@@ -39,7 +36,5 @@ namespace oslometAPI.Controllers
         {
             return await _db.GetKlasser(id);
         }
-
     }
-
 }

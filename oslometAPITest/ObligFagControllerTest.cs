@@ -11,10 +11,10 @@ namespace oslometAPITest
 {
     public class ObligFagControllerTest
     {
+
         [Fact]
         public async Task GetObligFagOK()
         {
-
             var obligFag1 = new ObligFags
             {
                 Id = 1,

@@ -7,13 +7,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using oslometAPI.Models;
 
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace oslometAPI.Data
 {
     //Sletter og oppretter databasen, initialiserer informasjon som skal være i databasen ved opprettelse
     public static class DBInit
     {
+
         public static void Seed(IApplicationBuilder app)
         {
             var serviceScope = app.ApplicationServices.CreateScope();

@@ -13,10 +13,9 @@ using oslometAPI.Data;
 
 namespace oslometAPI
 {
+
     public class Startup
     {
-
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
 
@@ -28,12 +27,8 @@ namespace oslometAPI
             services.AddScoped<IMasterFagRepository, MasterFagRepository>();
             services.AddScoped<IObligFagsRepository, ObligFagsRepository>();
             services.AddScoped<IMuligheterRepository, MuligheterRepository>();
-
-
-
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
@@ -47,9 +42,7 @@ namespace oslometAPI
 
             app.UseRouting();
 
-
-
-            app.UseStaticFiles(); //merk denne!
+            app.UseStaticFiles(); 
 
             app.UseEndpoints(endpoints =>
             {

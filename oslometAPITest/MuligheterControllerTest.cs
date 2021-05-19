@@ -14,7 +14,6 @@ namespace oslometAPITest
         [Fact]
         public async Task GetMuligheter()
         {
-
             var mulighet1 = new Muligheter
             {
                 Id = 1,
@@ -42,10 +41,7 @@ namespace oslometAPITest
                 URL2 = "www.eksempel5.no",
                 URL3 = "www.eksempel6.no",
             };
-        
-
-        
-
+       
             var muligheterList = new List<Muligheter>();
             muligheterList.Add(mulighet1);
             muligheterList.Add(mulighet2);

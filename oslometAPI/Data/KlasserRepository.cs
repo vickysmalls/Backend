@@ -7,17 +7,22 @@ using System.Threading.Tasks;
 
 namespace oslometAPI.Data
 {
+
     public class KlasserRepository : IKlasserRepository
     {
+
         private readonly oslometContext _db;
 
         public KlasserRepository(oslometContext db)
         {
+
             _db = db;
+
         }
 
         public async Task<List<Klasser>> GetKlasser()
         {
+
             try
             {
                 List<Klasser> alleKlasser = await _db.Klasse.Select(k => new Klasser
@@ -32,10 +37,12 @@ namespace oslometAPI.Data
             {
                 return null;
             }
+
         }
 
         public async Task<Klasser> GetKlasser(int id)
         {
+
             Klasser enKlasse = await _db.Klasse.FindAsync(id);
             var hentKlasse = new Klasser()
             {
@@ -44,7 +51,9 @@ namespace oslometAPI.Data
            
             };
             return hentKlasse;
+
         }
+
     }
 
 }

@@ -4,8 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-
-
 namespace oslometAPI.Models
 {
     public class ObligFags
@@ -18,7 +16,5 @@ namespace oslometAPI.Models
         public string URL { get; set; }
         public string URL2 { get; set; }
         public int KlasseId { get; set; }
-        // public Klasser Klasser { get; set; }
-
     }
 }

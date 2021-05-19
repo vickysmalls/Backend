@@ -10,6 +10,5 @@ namespace oslometAPI.Data
     {
         Task<List<Muligheter>> GetMuligheter();
         Task<Muligheter> GetMuligheter(int id);
-        
     }
 }

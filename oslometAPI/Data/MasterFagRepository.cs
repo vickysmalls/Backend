@@ -9,6 +9,7 @@ namespace oslometAPI.Data
 {
     public class MasterFagRepository : IMasterFagRepository
     {
+
         private readonly oslometContext _db;
 
         public MasterFagRepository(oslometContext db)
@@ -63,8 +64,6 @@ namespace oslometAPI.Data
             }
             var masterByKat = _db.MasterFag.Where(q => q.KlasseId == id);
             return (MasterFag)masterByKat;
-
         }
     }
-
 }

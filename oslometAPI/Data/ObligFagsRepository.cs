@@ -9,6 +9,7 @@ namespace oslometAPI.Data
 {
     public class ObligFagsRepository : IObligFagsRepository
     {
+
         private readonly oslometContext _db;
 
         public ObligFagsRepository(oslometContext db)
@@ -31,14 +32,14 @@ namespace oslometAPI.Data
                     URL2 = o.URL2,
                     KlasseId = o.KlasseId,
 
-                 }).ToListAsync();
-                            return alleObligFag;
-                        }
-                        catch
-                        {
-                            return null;
-                        }
-                    }
+                }).ToListAsync();
+                    return alleObligFag;
+                }
+                catch
+                {
+                return null;
+            }
+        }
 
         public async Task<ObligFags> GetObligFag(int id)
         {
@@ -58,5 +59,4 @@ namespace oslometAPI.Data
             return hentetObligFag;
         }
     }
-
 }
